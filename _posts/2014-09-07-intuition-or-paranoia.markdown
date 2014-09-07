@@ -16,6 +16,3 @@ So how do you tell the difference? Based on the experiences of many people - her
 Intuition is gentle and inspires action, whereas paranoia is intense with emotions and inspires reaction. Reaction in the form of excess anxiety and nervousness. In short intuition radiates out and paranoia radiates in.
 
 The moment you are aware of it, you know when to ignore the dark cloud of paranoia and let it pass. Also when to act on the gentle inspiration of intuition.
-
-
-
