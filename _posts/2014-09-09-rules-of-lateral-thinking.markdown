@@ -9,19 +9,19 @@ Lateral Thinking is what differentiates humans from computers. You can never com
 
 Our structured lives do not pose a pressing need for lateral thinking (unless you are CSI agent). But conscious exercise of it has many benefits.
 
-Rule#1 *Reject the obvious.*
+Rule#1 **Reject the obvious.**
 
 This is the heart of lateral thinking ability. Reject the obvious. Think outside the box.
 
-Rule#2 *Solve lateral thinking puzzles*
+Rule#2 **Solve lateral thinking puzzles**
 
 Usually a crutial part of the story is deliberately masked in these puzzles.  You have to put on your imagination hat and creative shoes to reconstruct it.
 
-Rule#3 *Imaginative Reading, Watching*
+Rule#3 **Imaginative Reading, Watching**
 
 When you are reading a book, article or watching a show, pause it at a crucial point. Put the book aside and try to imagine how things are going to turn up. 
 
-Rule#4: *Apply in real life*s
+Rule#4: **Apply in real life**
 
 In your everyday conversations with friends, co-workers try to think of quirky responses that would get a few laughs.
 
