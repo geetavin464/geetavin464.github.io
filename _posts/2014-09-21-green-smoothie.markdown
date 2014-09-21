@@ -21,4 +21,4 @@ A Simple Recipe:
 - Clears the Skin
 - Reduces menstrual cramps greatly
 
-With all these benefits, its a no-brainer to not spend those few minutes everyday to enjoy a refreshing glass of green smoothie!
+With all these benefits, its a no-brainer to spend those few minutes everyday to enjoy a refreshing glass of green smoothie!
