@@ -60,6 +60,21 @@ categories: Essentials
   * `scp foobar.txt your_username@remotehost.edu:/some/remote/directory` securely copy a file to remote destination. also works the other way.
   * `mkdir -p /some/dir/` - Creates the parent directories along the way
 
+* Pattern Search
+  * `egrep -c 'update_user' file1.txt` - Counts the number of lines with the pattern
+  * `egrep -iB 120 "There were errors with the information" unicorn.log | tail -12`
+  * `-i` ignore case
+  * `-l` print name of files matched
+  * `-w` search for words
+  * `-A 3` 3 lines after the match
+  * `-B 3` 3 lines before the match
+  * `-C 3` 3 lines around the match
+  * `-r` Search recursively
+  * `-n` show line number
+  * `-v` invert the match
+  * `-s` returns if the patter is matched 
+
+
 * __Compression & Decompression__
   * `tar -zcvf filename.tar.gz input_folder` Compress the input folder & archive
   * `tar -zxvf filename.tar.gz` Decompress the archive into the folder
@@ -85,6 +100,7 @@ categories: Essentials
   * `host google.com` - DNS lookup
   * `ping google.com` - Tells if a machine is active
   * `du` - Disk Usage Statistics
+  * `ifconfig` - Print or Configure network interface parameters
 
 * __Command Enhancements__
   * `time cmd` - Prints the time taken to execute the cmd
