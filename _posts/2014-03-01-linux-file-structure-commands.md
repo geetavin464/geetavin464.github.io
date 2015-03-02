@@ -9,16 +9,16 @@ categories: Essentials
 Linux does not assume anything. Lets you install what you need rather than give you a bunch of things you may not need.
 
 * Kernel
-Takes care of resource allocation. 
+  Takes care of resource allocation. 
 
 * Shell
-Accepts commands and passes it to the kernel
+  Accepts commands and passes it to the kernel
 
 * Service
-Service is an application that runs in the background
+  Service is an application that runs in the background
 
 * Important Folders
-`/var/run` - pids for the important processes
+  `/var/run` - pids for the important processes
 `/var/log` - Logs
 `/etc/init` - Configuration Files
 `/etc/init.d` - Scripts that respond to start and stop
