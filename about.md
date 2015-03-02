@@ -4,5 +4,5 @@ title: About
 permalink: /about/
 ---
 
-Web Development Cheatsheets
+I'm a minimalist. I prefer simplicity to complexity. 
 
