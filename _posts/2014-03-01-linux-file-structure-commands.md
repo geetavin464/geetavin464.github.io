@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Linux CheatSheet"
+title:  "Linux File Structure & Commands"
 date:   2015-02-22 19:08:44
-categories: Essentials
+categories: Cheatsheets
 ---
 
 * __Philosophy of Linux__: 
@@ -60,7 +60,7 @@ categories: Essentials
   * `scp foobar.txt your_username@remotehost.edu:/some/remote/directory` securely copy a file to remote destination. also works the other way.
   * `mkdir -p /some/dir/` - Creates the parent directories along the way
 
-* Pattern Search
+* __Pattern Search__
   * `egrep -c 'update_user' file1.txt` - Counts the number of lines with the pattern
   * `egrep -iB 120 "There were errors with the information" unicorn.log | tail -12`
   * `-i` ignore case
