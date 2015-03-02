@@ -8,6 +8,7 @@ categories: Essentials
 1. Operations
 * Linux File Structure & Commands
 * Networking Protocols
+* Web Server Downtime Debugging Checklist
 
 2. Programming
 * Best Practices
@@ -25,7 +26,7 @@ categories: Essentials
 * Software Development Philosophies
 
 6. Mobile Development Landscape
- *
+* 
 
 7. Problem Solving Methodologies
 * Heuristics

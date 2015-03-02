@@ -1,7 +1,7 @@
 # Site settings
 title: Less is More
 email: your-email@domain.com
-description: "This is a compilation of my thoughts, ideas that inspire me. Things I care deeply about. I try to articulate as much as possible. Please excuse any ineloquency."
+description: "Few Thoughts & Ideas about Web Development"
 baseurl: ""
 url: "http://yourdomain.com"
 # twitter_username: jekyllrb
