@@ -55,24 +55,24 @@ categories: Essentials
   * `tar -zcvf filename.tar.gz input_folder` Compress the input folder & archive
   * `tar -zxvf filename.tar.gz` Decompress the archive into the folder
 
-* Links 
+* __Links__
   * `ln -s abc.txt abc_soft.txt` 
   * Soft link points to the file in its current location. Just a hyperlink. Does not work if the file is moved.
   * `ln abc.txt abc_hard.txt`
   * Hard link points to the file wherever it is. They have the same inode value.
 
-* User Management
+* __User Management__
   * `sudo` Run commands as the root user
   * A normal user can have sudo privileges
 
-* Scripts
-  * #! /bin/bash - Hash Bang. Tells the script to use the bash interpreter
+* __Scripts__
+  * `#! /bin/bash` - Hash Bang. Tells the script to use the bash interpreter
 
-* Network Management
+* __Network Management__
   * `netstat -ntlp` - List of ports listening
   * `telnet host port` - Check if the port on the host is listening`
 
-* Command Enhancements
+* __Command Enhancements__
   * `time cmd` - Prints the time taken to execute the cmd
   * `|` - Passes the output of the previous command to the input of the next command
   * `&` - Execute a command in the background and return
