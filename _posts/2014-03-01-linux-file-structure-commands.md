@@ -59,6 +59,7 @@ categories: Essentials
   * `ln -s abc.txt abc_soft.txt` 
   * Soft link points to the file in its current location. Just a hyperlink. Does not work if the file is moved.
   * `ln abc.txt abc_hard.txt`
+  * `rm abc_hard.txt` 
   * Hard link points to the file wherever it is. They have the same inode value.
 
 * __User Management__
@@ -77,7 +78,27 @@ categories: Essentials
   * `|` - Passes the output of the previous command to the input of the next command
   * `&` - Execute a command in the background and return
   * `./cmd` - Bypass an alias
-  * 
+  * `man cmd` - Manual Entry for command
+  * `whatis cmd` - Also documentation
+
+* __Aliases__
+  * Aliases help replace one string with another while execution. Aliases are usually defined in the configuration file like .bash_profile 
+  * `alias ll="ls -l"` - Creates an alias
+  * `alias ll` - Gets the alias for the string
+
+* __Terminal__
+  * `cmd + R` - clears the terminals
+  * `ctrl + R` - search through history
+
+* __Vi Editor__
+  * `vi +89 filename` - Opens the file from line 89
+  * Modes - Command Mode- esc & Insert Mode- i
+  * `dd` - Deletes line in command mode
+  * `yy` - Copy line
+  * `p` - Paste
+  * `:n` - Goto line
+  * `$` - Go to end of line
+  * `^` - Go to beginning of line
 
 
 
