@@ -9,13 +9,13 @@ categories: Essentials
   * Linux does not assume anything. Lets you install what you need rather than give you a bunch of things you may not need.
 
 * __Kernel__
- * Takes care of resource allocation. 
+  * Takes care of resource allocation. 
 
 * __Shell__
- * Accepts commands and passes it to the kernel
+  * Accepts commands and passes it to the kernel
 
 * __Service__
- * Service is an application that runs in the background
+  * Service is an application that runs in the background
 
 * __Important Folders__
   * `/var/run` - pids for the important processes
