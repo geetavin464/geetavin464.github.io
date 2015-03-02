@@ -9,16 +9,20 @@ categories: Essentials
 Linux does not assume anything. Lets you install what you need rather than give you a bunch of things you may not need.
 
 * Kernel
-  Takes care of resource allocation. 
+
+Takes care of resource allocation. 
 
 * Shell
-  Accepts commands and passes it to the kernel
+
+Accepts commands and passes it to the kernel
 
 * Service
-  Service is an application that runs in the background
+
+Service is an application that runs in the background
 
 * Important Folders
-  `/var/run` - pids for the important processes
+
+`/var/run` - pids for the important processes
 `/var/log` - Logs
 `/etc/init` - Configuration Files
 `/etc/init.d` - Scripts that respond to start and stop
@@ -26,13 +30,16 @@ Linux does not assume anything. Lets you install what you need rather than give 
 `/etc/passwd` - User Database
 
 * Processes
+
 Processes are the core of a linux OS. A process is an instance of a running command. 
- - init - is the first process with id 1. Cannot be killed. Every other process is the child of init. 
+ * init - is the first process with id 1. Cannot be killed. Every other process is the child of init. 
 
 * htop
+
 Interactive List of processes ordered by CPU usage
 
 * Files & Directories
+
 `cat filename` prints the file contents in the terminal for reading.
 `less filename` paginate the file. space to advance
 `touch filename` creates a new file
