@@ -5,19 +5,19 @@ date:   2015-02-22 19:08:44
 categories: Essentials
 ---
 
-* Philosophy of Linux: 
+* __Philosophy of Linux__: 
   * Linux does not assume anything. Lets you install what you need rather than give you a bunch of things you may not need.
 
-* Kernel
+* __Kernel__
  * Takes care of resource allocation. 
 
-* Shell
+* __Shell__
  * Accepts commands and passes it to the kernel
 
-* Service
+* __Service__
  * Service is an application that runs in the background
 
-* Important Folders
+* __Important Folders__
   * `/var/run` - pids for the important processes
   * `/var/log` - Logs
   * `/etc/init` - Configuration Files
@@ -25,14 +25,14 @@ categories: Essentials
   * `/etc/hosts` - DNS
   * `/etc/passwd` - User Database
 
-* processes
+* __Processes__
   * Processes are the core of a linux OS. A process is an instance of a running command. 
   * init - is the first process with id 1. Cannot be killed. Every other process is the child of init. 
 
-* htop
+* __htop__
   * Interactive List of processes ordered by CPU usage
 
-* Files & Directories
+* __Files & Directories__
   * `cat filename` prints the file contents in the terminal for reading.
   * `less filename` paginate the file. space to advance
   * `touch filename` creates a new file
