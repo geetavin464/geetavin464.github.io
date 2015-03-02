@@ -5,4 +5,11 @@ date:   2015-03-02 06:08:44
 categories: Cheatsheets
 ---
 
-* 
+|Purpose|Tool|
+|:-----:|:---:|
+|Browser|Chrome|
+|RestClient|POSTMAN-chrome extension|
+|ClientSide Debugging|Chrome Developer Tools|
+|Version Control| Git|
+|Repository Hosting| Github|
+|GUI for git repos | SourceTree|
