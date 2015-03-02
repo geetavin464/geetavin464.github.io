@@ -57,7 +57,8 @@ categories: Cheatsheets
   * `mv f1 f2` Renames file f1 to f2
   * `cp f1 f2` Copies file f1 to f2
   * `ls -l` Lists files with permissions
-  * `scp foobar.txt your_username@remotehost.edu:/some/remote/directory` securely copy a file to remote destination. also works the other way.
+  * `scp user1@host1:/some/remote_dir/file1 user2@host2:/some/remote_dir/file2` securely copy a file to remote destination.
+  * `-rq` - Recursive Quiet
   * `mkdir -p /some/dir/` - Creates the parent directories along the way
 
 * __Pattern Search__
