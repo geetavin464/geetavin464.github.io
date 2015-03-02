@@ -4,5 +4,5 @@ title: About
 permalink: /about/
 ---
 
-Thoughts and Ideas about Web Development
+Web Development Cheatsheets
 
