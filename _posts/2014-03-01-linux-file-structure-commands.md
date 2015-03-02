@@ -6,7 +6,7 @@ categories: Essentials
 ---
 
 * __Philosophy of Linux__: 
-  * Linux does not assume anything. Lets you install what you need rather than give you a bunch of things you may not need.
+  * Linux does not assume anything. Lets you install what you need rather than give you a bunch of things you may not need. All commands are case sensitive.
 
 * __Kernel__
   * Takes care of resource allocation. 
@@ -37,9 +37,17 @@ categories: Essentials
 * __Processes__
   * Processes are the core of a linux OS. A process is an instance of a running command. 
   * init - is the first process with id 1. Cannot be killed. Every other process is the child of init. 
+  * daemon - is a background process
+  * `ps aux | grep ruby` - prints the process information
+
+* __Scheduled Jobs__
+  * `crontab -l` - lists all the scheduled background processes
+  * `crontab -e` - edit the crontab 
 
 * __htop__
   * Interactive List of processes ordered by CPU usage
+  * Prints CPU & Memory Utilization
+  * `space` tags a process. colors it yellow.
 
 * __Files & Directories__
   * `cat filename` prints the file contents in the terminal for reading.
@@ -50,6 +58,7 @@ categories: Essentials
   * `cp f1 f2` Copies file f1 to f2
   * `ls -l` Lists files with permissions
   * `scp foobar.txt your_username@remotehost.edu:/some/remote/directory` securely copy a file to remote destination. also works the other way.
+  * `mkdir -p /some/dir/` - Creates the parent directories along the way
 
 * __Compression & Decompression__
   * `tar -zcvf filename.tar.gz input_folder` Compress the input folder & archive
@@ -72,6 +81,10 @@ categories: Essentials
 * __Network Management__
   * `netstat -ntlp` - List of ports listening
   * `telnet host port` - Check if the port on the host is listening`
+  * `iostat` - 
+  * `host google.com` - DNS lookup
+  * `ping google.com` - Tells if a machine is active
+  * `du` - Disk Usage Statistics
 
 * __Command Enhancements__
   * `time cmd` - Prints the time taken to execute the cmd
@@ -80,6 +93,7 @@ categories: Essentials
   * `./cmd` - Bypass an alias
   * `man cmd` - Manual Entry for command
   * `whatis cmd` - Also documentation
+  * `screen -x` - Screen Sharing between users
 
 * __Aliases__
   * Aliases help replace one string with another while execution. Aliases are usually defined in the configuration file like .bash_profile 
@@ -99,6 +113,7 @@ categories: Essentials
   * `:n` - Goto line
   * `$` - Go to end of line
   * `^` - Go to beginning of line
+  * `:q :q! :wq` - Quit , Quit without saving , Save & Quit
 
 
 
