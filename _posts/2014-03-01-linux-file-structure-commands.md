@@ -37,6 +37,8 @@ categories: Essentials
   * `less filename` paginate the file. space to advance
   * `touch filename` creates a new file
   * `tail -f filename -n 100` Prints the last 100 lines of the file
+  * `mv f1 f2` Renames file f1 to f2
+  *  `cp f1 f2` Copies file f1 to f2
 
 
 
