@@ -4,5 +4,5 @@ title: About
 permalink: /about/
 ---
 
-I'm a minimalist. I prefer simplicity to complexity. 
+Blog of a minimalist. I prefer simplicity to complexity. 
 
