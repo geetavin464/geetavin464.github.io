@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "Linux File Structure & Commands"
-date:   2015-02-22 19:08:44
+date:   2015-03-01 19:08:44
 categories: Cheatsheets
 ---
 
-* __Philosophy of Linux__: 
+* __Philosophy of Linux__
   * Linux does not assume anything. Lets you install what you need rather than give you a bunch of things you may not need. All commands are case sensitive.
 
 * __Kernel__
