@@ -6,8 +6,8 @@ categories: Essentials
 ---
 
 1. Operations
-..*Linux File Structure & Commands
-..*Networking Protocols
+*Linux File Structure & Commands
+*Networking Protocols
 
 2. Programming
 ..*Best Practices
