@@ -40,5 +40,5 @@ categories: Cheatsheets
   * Timeboxing - Commit to work a small amount of time, as little as 5 minutes. Most often you will end up spending much longer. Helps overcome procrastination. 
   * Journaling - Putting it on paper avoids circular, repetitive thinking. Helps overcome the limitations of conscious mind's working memory.
   * Put it on hold - A solution might pop out when you least expect it
-  * Persistance - `It’s not that I’m so smart, it’s just that I stay with problems longer. - Albert Einstein`
+  * Persistance - In the words of Albert Einstein > *It’s not that I’m so smart, it’s just that I stay with problems longer.* 
   * Problems exist to help you grow, not to beat you down. They are like dumbbells. Start with the lightest one. 
