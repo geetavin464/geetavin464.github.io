@@ -5,14 +5,14 @@ date:   2015-03-02 18:41:32
 categories: Cheatsheets
 ---
 
-* Frequently Used Networking Protocols
+* __Frequently Used Networking Protocols__
   * HTTP, HTTPS, SSH, DNS, SMTP, POP3/IMAP
 
-* IP Address
+* __IP Address__
   * public ip or dns - external - reachable over the internet
   * private ip or dns - internal - reachable in the private network
 
-* Ports
+* __Ports__
   * An IP address has multiple ports for various servers
   * Each server binds to a port and listens for incoming connections
   * `http - 22`
@@ -23,13 +23,13 @@ categories: Cheatsheets
   * Port ~ Apartment Number. Socket ~ Door of Apartment. IP address ~ street address
   * Port Forwarding
 
-* https
+* __https__
   * When you use https protocol to make a connection from a browser, you see a green lock icon to the left
   * All data transfer between the client and server is encrypted
   * The server should know how to handle this connection
   * The server needs a certificate - .crt and a private key - .key 
 
-* Generating an SSL certificate
+* __Generating an SSL certificate__
   * Popular Implementation - openssl
   * Use openssl to generate a certificate signing request .csr
   * You can use these files to generate a self-sign certificate for local environment
@@ -37,11 +37,11 @@ categories: Cheatsheets
   * Normally expires in 365 days
   * `openssl x509 -enddate -noout -in certif.crt` To check the expiration of a .crt
 
-* Using an ssl Certificate
+* __Using an ssl Certificate__
   * Turn on the ssl config option in nginx
   * Provide the .crt & .key files generated
 
-* SSH
+* __SSH__
   * Secure Shell
   * Succesor to telnet, but encrypted
   * Popular Implementations - openssh
@@ -49,18 +49,18 @@ categories: Cheatsheets
   * `ssh user@host` - if username is different on the host
   * `ssh host cmd` - To run a single command on the host
 
-* SSH configuration
+* __SSH configuration__
   * `/etc/ssh/sshd_config` - Configures the ssh server
   * `sudo service ssh restart` - if you changed any configuration
 
-* SSH Key based Authentication
+* __SSH Key based Authentication__
   * `ssh-keygen -t rsa` Generates id_rsa id_rsa.pub in ~/.ssh folder
   * Provide the public key aka host key to the machines you want to access
   * Private Key ~ real life key.   Public Key ~ Real life lock
   * `.ssh/known_hosts` - Lists the servers your machine can connect with
   * `.ssh/authorized_keys` - Lists the key that were authorized to connect
 
-* Http Protocol - Verbs
+* __Http Protocol - Verbs__
   * get - fetch an existing resource
   * post - creates a new resource
   * put - update an existing resource
@@ -71,14 +71,14 @@ categories: Cheatsheets
   * Idempotent Method - Effect of 1 method is the same as the effect of multiple methods - put, delete
 
 
-* Http Status Codes
+* __Http Status Codes__
   * 1xx - informational messages
   * 2xx - success messages
   * 3xx - redirection messages
   * 4xx - client error 
   * 5xx - server error
 
-* Http headers
+* __Http headers__
   * Use Chrome inspector-Network panel to look at the request and response headers
   * Request payload in a post method is nothing but the form data
   * Options Method is also commonly known as preflight request
