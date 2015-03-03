@@ -4,7 +4,7 @@ title:  "Web Developer Toolbox"
 date:   2015-03-02 06:08:44
 categories: Cheatsheets
 ---
-----------------------------------------------------------
+
 | Purpose               | Tool                           |
 | :--------------------:| :-----------------------------:|  
 | Browser               | Chrome                         |
@@ -29,4 +29,4 @@ categories: Cheatsheets
 | Web Framework         | Rails                          |
 | Bookmarking           | Pocket                         |
 | Spaced Repetition     | Quizlet                        |
-----------------------------------------------------------
+
