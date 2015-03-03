@@ -24,6 +24,7 @@ categories: Cheatsheets
   * `/etc/init.d` - Scripts that respond to start and stop
   * `/etc/hosts` - DNS
   * `/etc/passwd` - User Database
+  * `/etc/ssh` - ssh configuration
   * `~` - Home Directory
   * `~/.ssh` - Contains known_hosts, Authentication keys id_rsa
   * `~/.bash_profile` - Defines the aliases and configuration. Startup File. 
@@ -116,6 +117,8 @@ categories: Cheatsheets
   * Aliases help replace one string with another while execution. Aliases are usually defined in the configuration file like .bash_profile 
   * `alias ll="ls -l"` - Creates an alias
   * `alias ll` - Gets the alias for the string
+  * Single quotes - variables are not expanded
+  * Double quotes - variables are expanded
 
 * __Terminal__
   * `cmd + R` - clears the terminals

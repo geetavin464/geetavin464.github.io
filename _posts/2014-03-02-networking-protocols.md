@@ -11,6 +11,7 @@ categories: Cheatsheets
 * __IP Address__
   * public ip or dns - external - reachable over the internet
   * private ip or dns - internal - reachable in the private network
+  * ipv4 4 octets ie 8 bits each
 
 * __Ports__
   * An IP address has multiple ports for various servers
@@ -48,6 +49,7 @@ categories: Cheatsheets
   * `ssh host`
   * `ssh user@host` - if username is different on the host
   * `ssh host cmd` - To run a single command on the host
+  * `ssh -L 9000:flickr.com:80 user@example.com` - lets you access flickr at localhost:9000 - ssh tunneling
 
 * __SSH configuration__
   * `/etc/ssh/sshd_config` - Configures the ssh server
@@ -91,6 +93,14 @@ categories: Cheatsheets
 * __DNS__
   * Maps Ip addresses to human friendly domain names, so we dont have to remember a bunch of numbers to visit a website
   * TLD - top level domain - com net org gov
+  * SLD - second level domain - google twitter
+  * Zone File/Name Servers/Root Servers - contain the dns mapping
+  * CNAME - alias
+
+* __Email Servers__
+  * SMTP - push protocol
+  * Last step used Pop3/IMap which is pull protocol
+  * Use polling to make it seem instantaneous
 
 
 
