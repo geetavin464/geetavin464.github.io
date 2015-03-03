@@ -88,5 +88,9 @@ categories: Cheatsheets
   * `Access-control-allow-origin` or `Access-control-allow-methods` etc
   * Necessary to prevent Cross-site-scripting attacks
 
+* __DNS__
+  * Maps Ip addresses to human friendly domain names, so we dont have to remember a bunch of numbers to visit a website
+  * TLD - top level domain - com net org gov
+
 
 
