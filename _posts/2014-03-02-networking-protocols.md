@@ -15,11 +15,11 @@ categories: Cheatsheets
 * Ports
   * An IP address has multiple ports for various servers
   * Each server binds to a port and listens for incoming connections
-  * `http 22`
-  * `https 443`
-  * `dns 53`
-  * `ssh 22`
-  * `smtp 25`
+  * `http - 22`
+  * `https - 443`
+  * `dns - 53`
+  * `ssh - 22`
+  * `smtp - 25`
   * Port ~ Apartment Number. Socket ~ Door of Apartment. IP address ~ street address
   * Port Forwarding
 
