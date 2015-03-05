@@ -4,6 +4,8 @@ title:  "Programming Best Practices"
 date:   2015-03-01 21:05:44
 categories: Cheatsheets
 ---
+> Measuring programming progress by lines of code is like measuring aircraft building progress by weight
+> - Bill Gates
 
 * Is the code unit tested?
 * Is it human readable?

@@ -4,6 +4,8 @@ title:  "Software Development Philosophies"
 date:   2015-03-04 07:32:44
 categories: Cheatsheets
 ---
+> The first 90% of the code accounts for the first 90% of the development time. The remaining 10% of the code accounts for the other 90% of the development time.
+> - Tom Cargill
 
 * Agile Manifesto
   * Values..
