@@ -5,7 +5,6 @@ date:   2015-03-03 06:08:44
 categories: Cheatsheets
 ---
 > It’s not that I’m so smart, it’s just that I stay with problems longer.
-
 > - Albert Einstein
 
 * __Problem Solving Techniques__
