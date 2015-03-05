@@ -1,7 +1,7 @@
 # Site settings
 title: Less is More
 email: geetavin464@gmail.com
-description: "Blog of a minimalist. I prefer simplicity to complexity."
+description: "This is a collection of my notes and thoughts on various topics in web development, software development, work etc."
 baseurl: ""
 url: "http://yourdomain.com"
 # twitter_username: jekyllrb

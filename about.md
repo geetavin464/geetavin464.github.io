@@ -4,5 +4,5 @@ title: About
 permalink: /about/
 ---
 
-Blog of a minimalist. I prefer simplicity to complexity. This is a compilation of my notes on various topics in web development, architecture, programming etc.
+This is a collection of my notes and thoughts on various topics in web development, software development, work etc. 
 
