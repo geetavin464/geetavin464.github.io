@@ -94,7 +94,7 @@ categories: Cheatsheets
   * `curl example.com` - writes to the standard output
   * `curl -o file.html example.com`
   * `curl -d "name=geeta&location=nyc" example.com` - post data
-  * [Quick Reference] (http://curl.haxx.se/docs/manual.html)
+  * [Quick Reference] (http://curl.haxx.se/docs/manual.html/)
 
 * __DNS__
   * Maps Ip addresses to human friendly domain names, so we dont have to remember a bunch of numbers to visit a website
