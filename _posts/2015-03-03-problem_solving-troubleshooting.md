@@ -11,7 +11,7 @@ categories: Cheatsheets
   * Difficult Problem - When the path to the solution is not immediately apparent
   * Make a guess - Evaluate each guess
   * Heuristics - Rules intended to help you explore the solution space and converge to the solution
-  * Define the problem - clarifies misconceptions in your mental model
+  * Define the problem - A problem clearly stated is a problem half solved
   * Abstract - The big picture might help you identify causes in other areas
   * Divide & Conquer - Divide the system into components and examine each
 

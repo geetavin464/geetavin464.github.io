@@ -14,3 +14,4 @@ categories: Cheatsheets
 * Does the business logic belong in the models?
 * Does the presentation logic belong in the controllers?
 * Is the reusable code extracted out of models & controllers?
+* Are edge/boundary cases appropriately handled?
