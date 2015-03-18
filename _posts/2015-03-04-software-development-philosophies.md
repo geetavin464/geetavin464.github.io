@@ -26,6 +26,13 @@ categories: Cheatsheets
   * Emphasize the necessity of adjusting requirements based on knowledge gained as the project progresses
   * Prefer prototypes over design specifications
 
+* Continuous Integration  
+  * Practice where members of the team regularly integrate their work into one central repository
+  * The teams use automated test & build tools to detect integration errors
+
+* Continuous Deployment
+  * Natural Extension of continuous integration. 
+
 * Scrum 
 
 * Lean Software Development

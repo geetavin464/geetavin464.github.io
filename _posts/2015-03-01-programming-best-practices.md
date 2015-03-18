@@ -7,11 +7,16 @@ categories: Cheatsheets
 > Measuring programming progress by lines of code is like measuring aircraft building progress by weight
 > - Bill Gates
 
-* Is the code unit tested?
-* Is it human readable?
-* Is it machine readable? aka Is it free from syntax errors?
-* Is it extensible? aka Is it scalable?
-* Does the business logic belong in the models?
-* Does the presentation logic belong in the controllers?
-* Is the reusable code extracted out of models & controllers?
-* Are edge/boundary cases appropriately handled?
+* __Primer__
+  * Is the code unit tested?
+  * Is it human readable?
+  * Is it machine readable? aka Is it free from syntax errors?
+  * Is it extensible? aka Is it scalable?
+  * Does the business logic belong in the models?
+  * Does the presentation logic belong in the controllers?
+  * Is the reusable code extracted out of models & controllers?
+  * Are edge/boundary cases appropriately handled?
+
+* __Patterns__
+  * __Decorator__
+
