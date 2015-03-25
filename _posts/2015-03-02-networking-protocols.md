@@ -102,6 +102,8 @@ categories: Cheatsheets
   * SLD - second level domain - google twitter
   * Zone File/Name Servers/Root Servers - contain the dns mapping
   * CNAME - alias
+  * Name Server - Computers that run DNS are called Name servers
+  * BIND - Ubuntu ships with BIND, the most common program for maintaining a name server on Linux
 
 * __Email Servers__
   * SMTP - push protocol

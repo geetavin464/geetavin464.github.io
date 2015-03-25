@@ -39,6 +39,7 @@ categories: Cheatsheets
   * `/etc/passwd` - User Database
   * `/etc/ssh` - ssh configuration
   * `/etc/my.cnf` - mysql config
+  * `/opt/` - location for optional packages not part of the default installation
   * `~` - Home Directory
   * `~/.ssh` - Contains known_hosts, Authentication keys id_rsa
   * `~/.bash_profile` - Defines the aliases and configuration. Startup File. 
