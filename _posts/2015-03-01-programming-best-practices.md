@@ -17,6 +17,6 @@ categories: Cheatsheets
   * Is the reusable code extracted out of models & controllers?
   * Are edge/boundary cases appropriately handled?
 
-* __Patterns__
-  * __Decorator__
+* __Mantras__
+  * DRY - Don't repeat yourself
 
