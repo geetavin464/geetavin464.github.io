@@ -19,6 +19,15 @@ categories: Cheatsheets
 * __Service__
   * Service is an application that runs in the background
 
+* __Releases__
+  * `lsb_release -a` - prints the release, codename and description
+  * `lsb_release -sc` - prints the codename
+  * `ubuntu-support-status` - check status of the release and packages
+  * ```sudo apt-get update
+       sudo apt-get install update-manager-core
+       sudo do-release-upgrade
+    ``` - to upgrade a release
+
 * __Important Folders__
   * `/var/run` - pids for the important processes
   * `/var/log` - Logs
@@ -32,11 +41,20 @@ categories: Cheatsheets
   * `~/.ssh` - Contains known_hosts, Authentication keys id_rsa
   * `~/.bash_profile` - Defines the aliases and configuration. Startup File. 
 
-* __Environment Variables__*
+* __Package Management__
+  * apt is used for package management
+  * `sudo apt-get install nmap` - To install the package nmap
+  * `sudo apt-get remove nmap` - To remove the package nmap
+  * `/etc/apt/sources.list` - stores the list of available packages
+  * Lines beginning with # are comments
+  * `deb` - These repositories contain binaries or precompiled packages
+  * `deb-src` - These repositories contain the source code for the packages
+  * `sudo apt-get update` - when you make changes to the sources
+
+* __Environment Variables__
   * `env` - view all environment variables
   * `env | grep PATH`
   * `echo $PATH`
-  * `lsb_release -a` - Prints the ubuntu version
 
 * __Processes__
   * Processes are the core of a linux OS. A process is an instance of a running command. 
