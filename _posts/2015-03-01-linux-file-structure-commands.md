@@ -12,6 +12,9 @@ categories: Cheatsheets
 
 * __Kernel__
   * Takes care of resource allocation. 
+  
+* __Documentation__
+  * [guide](https://help.ubuntu.com)
 
 * __Shell__
   * Accepts commands and passes it to the kernel
@@ -23,10 +26,9 @@ categories: Cheatsheets
   * `lsb_release -a` - prints the release, codename and description
   * `lsb_release -sc` - prints the codename
   * `ubuntu-support-status` - check status of the release and packages
-  * ```sudo apt-get update
-       sudo apt-get install update-manager-core
-       sudo do-release-upgrade
-    ``` - to upgrade a release
+  * `sudo apt-get update #step-1`
+  * `sudo apt-get install update-manager-core #step-2`
+  * `sudo do-release-upgrade #step-3` - 3 steps for upgrade
 
 * __Important Folders__
   * `/var/run` - pids for the important processes
