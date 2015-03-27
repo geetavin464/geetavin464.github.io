@@ -98,7 +98,7 @@ categories: Cheatsheets
   * `-r` Search recursively
   * `-n` show line number
   * `-v` invert the match
-  * `-s` returns if the patter is matched 
+  * `-s` returns if the pattern is matched 
 
 
 * __Compression & Decompression__
