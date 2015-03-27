@@ -4,7 +4,7 @@ title:  "Web Developer Toolbox"
 date:   2015-03-02 06:08:44
 categories: Cheatsheets
 ---
-
+----------------------------------------------------------
 | Purpose               | Tool                           |
 | :--------------------:| :-----------------------------:|  
 | Browser               | Chrome                         |
@@ -17,16 +17,17 @@ categories: Cheatsheets
 | GUI for git repos     | SourceTree                     |
 | Continuous Integration| Teamcity                       |
 | Database Client       | Workbench                      |
-| Instant Messaging     | Hipchat                        |
+| Instant Messaging     | Hipchat/Slack?                 |
 | File Sharing          | Dropbox                        |
 | Blog                  | jekyll github pages            |
 | Text Editor           | Sublime Text                   |
 | Terminal              | Iterm                          |
-| Task Management       | Pivotal Tracker                |
+| Task Management       | Pivotal Tracker/Trello         |
 | Virutal Linux Env     | Vagrant                        |
 | Web Server            | Webrick for dev/Nginx for Prod |
 | Ruby/Javascript       | Programming                    |
 | Web Framework         | Rails                          |
 | Bookmarking           | Pocket                         |
 | Spaced Repetition     | Quizlet                        |
+----------------------------------------------------------
 
