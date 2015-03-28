@@ -64,4 +64,29 @@ categories: Cheatsheets
   * Computer Processor
 
 * __Tree__
-  * Com
+  * Applications: Organization Structure, File System
+  * Recursive Data Structure because of sub trees
+
+* __Tree Glossary__
+  * Root
+  * Node - contains data and references to other nodes
+  * Children
+  * Parent
+  * Sibling
+  * Leaf - has no children
+  * Links/Edges
+  * Internal Node - has atleast 1 child
+  * Ancestor, Descendent - If you can walk a tree from A to B, A - ancestor B - descendent
+
+* __Tree Properties__
+  * Every node has only 1 parent, but zero or more children
+  * N nodes, n-1 edges
+  * Depth of node x - # of edges from root to node x
+  * Height of node x - # of edges from node x to a leaf
+  * Height of a tree - height of the root node
+  * Cost of operations are measured in terms of the height of the tree
+
+* __Tree Classification__
+  * Binary Tree/Binary Search Tree - A node has no more than 2 children
+  * Trie
+  
