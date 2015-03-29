@@ -14,7 +14,7 @@ categories: Cheatsheets
   * has 3 components
   1. Abstract Data Structure - Defining the data and operations at a top level abstraction with no details of implementation
   2. Implementation
-  3. Cost of operations
+  3. Cost of operations, which determines the chief application for that data structure
 
 * __How to chose a data structure__
   * Determine What needs to be stored
