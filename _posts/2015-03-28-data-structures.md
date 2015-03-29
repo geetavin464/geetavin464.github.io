@@ -37,12 +37,12 @@ categories: Cheatsheets
   * Collection of nodes with data & next elements. Defined by head pointer
 
 * __Array vs Linked List__
-  * | Operation          |        Array          |    Linked List      |
-    |:------------------:|:---------------------:|:-------------------:|
-    | Access an element  |        O(1)           |     O(n)            |
-    | Insert at begin    |        O(n)           |     O(1)            |
-    | Insert at end      |        O(n)           |     O(n)            |
-    | Insert at middle   |        O(n)           |     O(n)            |
+  | Operation          |        Array          |    Linked List      |
+  |:------------------:|:---------------------:|:-------------------:|
+  | Access an element  |        O(1)           |     O(n)            |
+  | Insert at begin    |        O(n)           |     O(1)            |
+  | Insert at end      |        O(n)           |     O(n)            |
+  | Insert at middle   |        O(n)           |     O(n)            |
 
 * __Double Linked List__
   * Data: head pointer, node(data, next, prev)
@@ -89,4 +89,3 @@ categories: Cheatsheets
 * __Tree Classification__
   * Binary Tree/Binary Search Tree - A node has no more than 2 children
   * Trie
-  
