@@ -24,4 +24,6 @@ categories: Cheatsheets
 * __Fixed Program Computers__
   * Circuits were designed to do specific things and thats what they did
 
-* __Stored Program Computers__
+* __Scoping__
+  * Lexical - You search for the variable in the current function, the function where the current function is defined and so on
+  * Dynamic - You search for the variable in the current function, the function where the current function is called and so on
