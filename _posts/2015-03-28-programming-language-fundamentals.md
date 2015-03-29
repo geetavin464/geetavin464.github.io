@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Programming Langulage Fundamentals"
+title:  "Programming Language Fundamentals"
 date:   2015-03-28 18:08:44
 categories: Cheatsheets
 ---
