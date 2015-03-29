@@ -18,3 +18,7 @@ categories: Cheatsheets
 * __Singleton__
 
 * __Decorator__
+
+* __MVC__
+
+* __MVVM__
