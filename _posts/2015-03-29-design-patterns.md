@@ -25,13 +25,9 @@ categories: Cheatsheets
   * Then you create subclasses `Human` and `AI` with details of implementation
   * THe generic Player class contains Template methods which defer specific logic to subclasses
 
-* __Strateg__
+* __Strategy__
   * Lets behavior to be selected at run-time
   * Used in authentication, twitter, facebook
-
-* __Singleton__
-
-* __Decorator__
 
 * __MVC__
 
