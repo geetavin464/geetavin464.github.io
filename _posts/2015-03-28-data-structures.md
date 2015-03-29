@@ -86,6 +86,28 @@ categories: Cheatsheets
   * Height of a tree - height of the root node
   * Cost of operations are measured in terms of the height of the tree
 
-* __Tree Classification__
-  * Binary Tree/Binary Search Tree - A node has no more than 2 children
-  * Trie
+* __Binary Search Tree__
+  * Cost of inserting, deleting, searching - logn
+  * We want the height to be minimum
+  * With n nodes, the maximum height is n-1
+  * Minimum height is logn
+  * Worst Case O(n)
+  * Average Case O(logn)
+  * A binary tree is balanced when the difference between the height of left and right subtree is not more than 1
+
+* __Graph__
+  * There is no root. Only nodes and edges
+  * Edges can be directed/undirected, weighted/unweighted
+  * Applications: Social Network like Facebook is a undirected graph
+  * Twitter - Directed Graph
+  * Highway network - weighted graph, since some edges/paths might be more expensive. Weight could be the length or traffic along that edge. Minimize the total cost
+  * Lot of problems like friend recommendations become easy, when we model data as a graph, like 
+  * Standard Problem - Find all the nodes at with shortest path from node x=2
+
+* __Heap__
+  * is a tree with a special heap property.
+  * There are 2 types of heaps. Max heap and Min heap
+  * Max heap - parent nodes are always greater than or equal to the children
+  * Root is the highest
+
+
