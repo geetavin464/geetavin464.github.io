@@ -7,6 +7,16 @@ categories: Cheatsheets
 > Measuring programming progress by lines of code is like measuring aircraft building progress by weight
 > - Bill Gates
 
+* __Code Smells__
+  * Code smells are a result of bad object oriented design and bad practices
+  * Duplicate Code
+  * Long Methods (more than 6 or 8 lines of code). If you cannot break it apart there might be a flaw in the design
+  * Feature Envy - When a class B is constantly requesting methods from class A, then perhaps the method needs to be defined in class A
+  * Data Clumps - Instead of having multiple dependent variables as parameters, have a single data structure 
+  * Comments - Prefer clean and self-explanatory code over comments
+  * Divergent Change - When a class or method has more than one responsibility
+  * Conditionals - You can usually avoid conditiona daze through object oriented design and patterns like strategy
+
 * __Computers__
   * Intelligence, according to merriam-webster is 'the ability to learn or understand things or to deal with new or difficult situations'
   * Computers are not intelligent

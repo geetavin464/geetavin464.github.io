@@ -28,6 +28,9 @@ categories: Cheatsheets
 * __Strategy__
   * Lets behavior to be selected at run-time
   * Used in authentication, twitter, facebook
+  * Strategy
+  * Context
+  * Runtime Flexibility
 
 * __MVC__
 
