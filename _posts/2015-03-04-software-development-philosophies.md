@@ -4,10 +4,12 @@ title:  "Software Development Philosophies"
 date:   2015-03-04 07:32:44
 categories: Cheatsheets
 ---
-> The first 90% of the code accounts for the first 90% of the development time. The remaining 10% of the code accounts for the other 90% of the development time.
-> - Tom Cargill
+
+* Waterfall Model
+  * More emphasis on planning
 
 * Agile Manifesto
+  * Embraces change unlike the waterfall
   * Values..
   * __Individuals and Interactions__ over *Processes and tools*
   * __Working Software__ over *Comprehensive Documentation*
@@ -54,5 +56,3 @@ categories: Cheatsheets
 * Technical Debt
   * Consequences of poor system design and regular maintanence
 
-* Waterfall Model
-  * More emphasis on planning

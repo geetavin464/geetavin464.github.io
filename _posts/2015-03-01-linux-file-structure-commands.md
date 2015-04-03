@@ -26,6 +26,7 @@ categories: Cheatsheets
   * `lsb_release -a` - prints the release, codename and description
   * `lsb_release -sc` - prints the codename
   * `ubuntu-support-status` - check status of the release and packages
+  * 3 Steps to do a release upgrade
   * `sudo apt-get update #step-1`
   * `sudo apt-get install update-manager-core #step-2`
   * `sudo do-release-upgrade #step-3` - 3 steps for upgrade
@@ -63,7 +64,7 @@ categories: Cheatsheets
   * Processes are the core of a linux OS. A process is an instance of a running command. 
   * init - is the first process with id 1. Cannot be killed. Every other process is the child of init. 
   * daemon - is a background process
-  * `ps aux | grep ruby` - prints the process information
+  * `ps aux | grep ruby` - prints the process information where a - all users, u - print username, x - show processes not attached to a terminal
 
 * __Scheduled Jobs__
   * `crontab -l` - lists all the scheduled background processes
@@ -121,7 +122,7 @@ categories: Cheatsheets
 
 * __Network Management__
   * `netstat -ntlp` - List of ports listening
-  * `telnet host port` - Check if the port on the host is listening`
+  * `telnet host port` - Check if the port on the host is listening
   * `iostat` - 
   * `host google.com` - DNS lookup
   * `ping google.com` - Tells if a machine is active
