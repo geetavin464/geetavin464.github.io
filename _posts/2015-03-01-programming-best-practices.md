@@ -3,12 +3,15 @@ layout: post
 title:  "Programming Best Practices"
 date:   2015-03-01 21:05:44
 categories: Cheatsheets
+published: false
 ---
-> Measuring programming progress by lines of code is like measuring aircraft building progress by weight
-> - Bill Gates
 
-* __Code Smells__
-  * Code smells are a result of bad object oriented design and bad practices
+* Good Object Oriented Design
+* Refactoring Patterns
+* Design Patterns
+8 Test Coverage
+
+* __Bad Practices__
   * Duplicate Code
   * Long Methods (more than 6 or 8 lines of code). If you cannot break it apart there might be a flaw in the design
   * Feature Envy - When a class B is constantly requesting methods from class A, then perhaps the method needs to be defined in class A
