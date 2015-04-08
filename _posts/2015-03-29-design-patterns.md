@@ -24,7 +24,7 @@ published: false
   * You have multiple snippets like this in you code - `if human do this else do that`
   * You have an abstract class `Player`
   * Then you create subclasses `Human` and `AI` with details of implementation
-  * THe generic Player class contains Template methods which defer specific logic to subclasses
+  * The generic Player class contains Template methods which defer specific logic to subclasses
 
 * __Strategy__
   * Lets behavior to be selected at run-time
@@ -33,6 +33,12 @@ published: false
   * Context
   * Runtime Flexibility
 
+* __Singleton__
+  * A class has only a single object
+  * You cannot instantiate a new object since the `new` method is private
+  * You cannot access the object of the class using `Klass.instance`
+  * To use this pattern do a `include Singleton` in your class
+  * Example: Rails controllers use the singleton pattern. You cannot instantiate a new controller instance
 * __MVC__
 
 * __MVVM__

@@ -3,16 +3,22 @@ layout: post
 title:  "Programming Language Fundamentals"
 date:   2015-03-28 18:08:44
 categories: Cheatsheets
-published: false
 ---
 
 * __Compiled__
   * Source Code -> Checker/Compiler -> Object Code -> Interpreter -> Output
   * Compiled languages are more efficient
+  * Examples: C, Java, Go, Haskell, Lisp
+  * Faster but immutable, very close to the machine
+  * OS & Native Applications use compiled code
+  * These languages do not support meta programming
 
 * __Interpreted__
   * Source Code -> Checker -> Interpreter -> Output
   * If something goes wrong, the error message is in the language of the source code
+  * Examples: Ruby, Javascript, Perl, Python, PhP
+  * Slower but more flexible
+  * These languages support meta programming
 
 * __Static Semantics__
   * A good programming language has very good static sematics
