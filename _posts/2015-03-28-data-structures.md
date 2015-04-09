@@ -110,4 +110,17 @@ categories: Cheatsheets
   * Max heap - parent nodes are always greater than or equal to the children
   * Root is the highest
 
+* __HashTable__
+  * Hash function - Transforms the key into a hash ( index ), a number that can locate the value.
+  * Provide constant time lookup O(1) irrespective of the number of items
+  * Useful when large number of records need to be stored
+  * Collision is when two keys hash to the same index
+  * `Chaining` - Uses a linked list. Benefit of this approach is, not requiring resizing at all. But, inherits all the disadvantages of linked lists.
+  * You can use a linked list or self balancing tree for the chain
+  * `Open Addressing` 
+
+* __Importance of Modulo in Programming__
+  * 
+
+
 

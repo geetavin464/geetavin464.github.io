@@ -18,3 +18,6 @@ published: false
 
 * __Applications__
   * Most applications typically use a mix of server and client side rendering
+
+* __MVC vs MVVM__
+  * 

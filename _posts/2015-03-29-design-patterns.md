@@ -39,6 +39,6 @@ published: false
   * You cannot access the object of the class using `Klass.instance`
   * To use this pattern do a `include Singleton` in your class
   * Example: Rails controllers use the singleton pattern. You cannot instantiate a new controller instance
-* __MVC__
 
-* __MVVM__
+* __Factory__
+  * The factory class determines which class to be instantiated

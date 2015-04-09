@@ -9,7 +9,7 @@ published: false
 * Good Object Oriented Design
 * Refactoring Patterns
 * Design Patterns
-8 Test Coverage
+* Test Coverage
 
 * __Bad Practices__
   * Duplicate Code
