@@ -4,8 +4,6 @@ email: geetavin464@gmail.com
 description: "This is a collection of my notes and thoughts on various topics in web development, software development, work etc."
 baseurl: ""
 url: "http://yourdomain.com"
-# twitter_username: jekyllrb
-# github_username:  jekyll
 
 # Build settings
 markdown: kramdown
