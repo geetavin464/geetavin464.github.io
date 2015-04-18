@@ -5,7 +5,7 @@ date:   2015-04-18 07:24:32
 categories: Cheatsheets
 ---
 
-* _What is a regular expression__
+* __What is a regular expression__
   * A regular expression is also called a pattern or regex
   * Sequence of characters 
   * Forms a search pattern
