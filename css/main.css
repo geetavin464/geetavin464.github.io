@@ -11,9 +11,9 @@ html, body { height: 100%; }
 body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
-  line-height: 1.5;
+  /*line-height: 1.5;*/
   font-weight: 300;
-  background-color: #fdfdfd;
+  /*background-color: #fdfdfd;*/
 }
 
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
@@ -40,11 +40,10 @@ a:visited { color: #205caa; }
 
 /* Site header */
 
-.site-header {
-  border-top: 5px solid #333;
-  border-bottom: 1px solid #e8e8e8;
-  min-height: 56px;
-  background-color: #26C6DA;
+div.site-header {
+  /*margin: 0 0 0 0;*/
+  background-color: #4DD0E1;
+  text-align: center;
 }
 
 /* Page Content styles */
@@ -58,10 +57,6 @@ a:visited { color: #205caa; }
 
 /* Home styles */
 /* ----------------------------------------------------------*/
-
-.home h1 { margin-bottom: 25px; }
-
-.posts { list-style-type: none; }
 
 .posts li { margin-bottom: 30px; }
 
@@ -159,14 +154,3 @@ a:visited { color: #205caa; }
   padding-left: 0;
 }
 
-/* terminal */
-.post pre.terminal {
-  border: 1px solid #000;
-  background-color: #333;
-  color: #FFF;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-}
-
-.post pre.terminal code { background-color: #333; }
