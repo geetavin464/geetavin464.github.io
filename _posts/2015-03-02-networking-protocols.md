@@ -43,7 +43,7 @@ categories: Cheatsheets
   * Provide the .crt & .key files generated
 
 * __SSH__
-  * Secure Shell
+  * Secure Shell - Securely log on to remote servers
   * Succesor to telnet, but encrypted
   * Popular Implementations - openssh
   * `ssh host`
@@ -52,10 +52,12 @@ categories: Cheatsheets
   * `ssh -L 9000:flickr.com:80 user@example.com` - lets you access flickr at localhost:9000 - ssh tunneling
 
 * __SSH configuration__
+  * Remote host should have a `ssh_server` running
   * `/etc/ssh/sshd_config` - Configures the ssh server
   * `sudo service ssh restart` - if you changed any configuration
 
 * __SSH Key based Authentication__
+  * Works 
   * `ssh-keygen -t rsa` Generates id_rsa id_rsa.pub in ~/.ssh folder
   * Provide the public key aka host key to the machines you want to access
   * Private Key ~ real life key.   Public Key ~ Real life lock

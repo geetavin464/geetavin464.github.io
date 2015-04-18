@@ -3,6 +3,7 @@ layout: post
 title:  "Data Structures"
 date:   2015-03-28 06:08:44
 categories: Cheatsheets
+published: false
 ---
 
 * __Data Structure__
@@ -105,12 +106,19 @@ categories: Cheatsheets
   * Standard Problem - Find all the nodes at with shortest path from node x=2
 
 * __Heap__
-  * is a tree with a special heap property.
-  * There are 2 types of heaps. Max heap and Min heap
-  * Max heap - parent nodes are always greater than or equal to the children
-  * Root is the highest
+  * Also called a `priority queue`
+  * Collection of nodes with a data attribute and atmost 2 child pointers
+  * A heap satisfies the heap property
+  * Max heap: A child node never exceeds the value of the parent node ( Root is largest)
+  * Min heap: A parent node never exceeds the value of a child node ( Root is the smallest)
+  * Binary Heap
+  * Drawbacks
+    * 
 
 * __HashTable__
+  * Important, Efficient, Flexible
+  * Used in search, count, 
+  * 3 features of hash table implementation - `hash function`, `collision resolution`, `dynamic resizing` 
   * Hash function - Transforms the key into a hash ( index ), a number that can locate the value.
   * Provide constant time lookup O(1) irrespective of the number of items
   * Useful when large number of records need to be stored
@@ -118,9 +126,8 @@ categories: Cheatsheets
   * `Chaining` - Uses a linked list. Benefit of this approach is, not requiring resizing at all. But, inherits all the disadvantages of linked lists.
   * You can use a linked list or self balancing tree for the chain
   * `Open Addressing` 
+  
 
-* __Importance of Modulo in Programming__
-  * 
 
 
 
