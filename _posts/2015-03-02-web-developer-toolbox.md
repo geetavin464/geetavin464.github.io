@@ -5,7 +5,6 @@ date:   2015-03-02 06:08:44
 categories: Cheatsheets
 ---
 <div class="panel panel-default">
-  <div class="panel-heading panel-title"> Tools used in everday web development</div>
   <table class="table">
     <tr>
       <th> Purpose </th>
