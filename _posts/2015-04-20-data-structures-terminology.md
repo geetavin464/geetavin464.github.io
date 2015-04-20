@@ -27,6 +27,7 @@ published: true
             Processing Power <br/>
             Memory Usage <br/>
             Difficulty of Implementation <br/>
+            Goal is to optimize worst case performance <br/>
       </td>
     </tr>
     <tr>
