@@ -7,9 +7,14 @@
 
     {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrap">
-      {{ content }}
+    <div class=" container-fluid page-content">
+      <div class="row">
+        <div class="col-md-3">
+          {% include leftnav.html %}
+        </div>
+        <div class="col-md-9">
+          {{ content }}
+        </div>
       </div>
     </div>
 
