@@ -2,7 +2,7 @@
 layout: post
 title:  "REST vs SOAP"
 date:   2015-03-24 16:38:44
-categories: Cheatsheets
+categories: architecture
 ---
 
 * __REST__

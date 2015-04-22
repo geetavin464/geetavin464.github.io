@@ -2,7 +2,7 @@
 layout: post
 title:  "Regular Expressions"
 date:   2015-04-18 07:24:32
-categories: Cheatsheets
+categories: programming
 ---
 
 * __What is a regular expression__

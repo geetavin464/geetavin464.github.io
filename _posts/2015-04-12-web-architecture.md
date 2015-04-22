@@ -2,7 +2,7 @@
 layout: post
 title:  "Web Architecture"
 date:   2015-04-12 06:08:44
-categories: Cheatsheets
+categories: architecture
 published: false
 ---
 

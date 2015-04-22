@@ -2,7 +2,7 @@
 layout: post
 title:  "Material Design"
 date:   2015-03-01 21:05:44
-categories: Cheatsheets
+categories: ui
 published: false
 ---
 
@@ -36,5 +36,24 @@ published: false
   * Images - size & placement within the card. Help users compare and contrast between the Cards
   * Color background - solid
   * Text - Enough contrast with the 
+
+* __Design__
+  * Build your credibility
+  * Justify design decisions
+  * Quoting experts
+  * Quote statistics
+  * Refer past work
+  * Professional with a process
+  * Don't get defensive
+  * Take their opinions. Respond 
+  * Show that you care. Show that you are excited.
+  * They get carried along with your excitement
+  * Reach compromises rather than blocks
+  * techno babble, design talk - if you confuse the client enough they might just agree
+  * You are emphasizing the difference between you and them
+  * Pick your battles. Let the client win.
+  * Be open and honest
+  * What does success look like ?
+  * brand awareness. leads. sales?
   * 
 

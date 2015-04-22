@@ -2,7 +2,7 @@
 layout: post
 title:  "Programming Language Fundamentals"
 date:   2015-03-28 18:08:44
-categories: Cheatsheets
+categories: programming
 ---
 
 * __Compiled__

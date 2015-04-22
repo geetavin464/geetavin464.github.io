@@ -1,0 +1,7 @@
+<h5> Categories </h5>
+{% for category in site.categories %}
+  <a href="/{{ category | first | slugize }}/">
+    {{ category | first }}
+  </a>
+{% endfor %}
+

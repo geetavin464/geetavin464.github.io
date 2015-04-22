@@ -2,8 +2,8 @@
 layout: post
 title:  "Bootstrap"
 date:   2015-04-10 19:08:44
-categories: Cheatsheets
-published: false
+categories: UI
+published: true
 ---
 
 * Bootstrap

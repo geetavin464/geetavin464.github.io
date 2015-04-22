@@ -2,7 +2,7 @@
 layout: post
 title:  "Linux File Structure & Commands"
 date:   2015-03-01 19:08:44
-categories: Cheatsheets
+categories: devops
 ---
 > All the best people in life seem to like LINUX
 > - Steve Wozniak

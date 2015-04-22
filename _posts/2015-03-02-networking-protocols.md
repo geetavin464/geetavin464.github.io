@@ -2,7 +2,7 @@
 layout: post
 title:  "Networking Protocols"
 date:   2015-03-02 18:41:32
-categories: Cheatsheets
+categories: devops
 ---
 
 * __Frequently Used Networking Protocols__

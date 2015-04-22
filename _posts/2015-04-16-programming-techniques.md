@@ -2,7 +2,7 @@
 layout: post
 title:  "Programming Techniques"
 date:   2015-04-16 18:41:32
-categories: Cheatsheets
+categories: programming
 published: false
 ---
 

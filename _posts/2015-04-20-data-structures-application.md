@@ -2,7 +2,7 @@
 layout: post
 title:  "Data Structures Application"
 date:   2015-04-20 06:08:44
-categories: Cheatsheets
+categories: programming
 published: true
 ---
 
