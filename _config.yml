@@ -3,7 +3,7 @@ title: Less is More
 email: geetavin464@gmail.com
 description: "This is a collection of my notes and thoughts on various topics in web development, software development, work etc."
 baseurl: ""
-url: "http://yourdomain.com"
+url: "http://geetavin464.github.io"
 
 # Build settings
 markdown: kramdown
