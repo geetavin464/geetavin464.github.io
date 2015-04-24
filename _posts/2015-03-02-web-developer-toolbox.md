@@ -4,7 +4,6 @@ title:  "Web Developer Toolbox"
 date:   2015-03-02 06:08:44
 categories: workflow
 ---
-<div class="panel panel-default">
   <table class="responsive-table striped">
     <tr>
       <th> Purpose </th>
@@ -95,4 +94,3 @@ categories: workflow
       <td>Quizlet</td>
     </tr>
   </table>
-</div>

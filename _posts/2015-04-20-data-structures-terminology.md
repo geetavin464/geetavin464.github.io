@@ -6,7 +6,6 @@ categories: programming
 published: true
 ---
 
-<div class="panel panel-default">
   <table class="responsive-table striped">
     <tr>
       <th> Data Structure </th>
@@ -96,4 +95,3 @@ published: true
       </td>
     </tr>
   </table>
-</div>
