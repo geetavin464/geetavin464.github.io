@@ -5,7 +5,6 @@ date:   2015-04-20 06:08:44
 categories: programming
 published: true
 ---
-
   <table class="responsive-table striped">
     <tr>
       <th> Data Structure </th>

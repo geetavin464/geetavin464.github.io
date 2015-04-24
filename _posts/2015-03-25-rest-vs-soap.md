@@ -4,31 +4,45 @@ title:  "REST vs SOAP"
 date:   2015-03-24 16:38:44
 categories: architecture
 ---
-
-* __REST__
-  * Representational State Transfer
-  * Rest is focussed on data(resources)
-  * Performs CRUD operations on data(resources)
-  * ex: getUser(id)
-  * Rest permits different data formats including JSON, which allows support for browser clients
-  * Rest reads can be cached
-
-* __SOAP__
-  * Simple Object Access Protocol
-  * SAOP is focussed on operations(services)
-  * ex: switchCategory(id)
-  * SOAP permits only XML
-  * SOAP reads cannot be cached
-
-* __Why SOAP__
-  * Supports some enterprise security features
-  * ACID transactions
-  * Reliable Messaging
+<table class="responsive-table striped">
+    <tr>
+      <th> REST </th>
+      <th> SOAP </th>
+    </tr>
+    <tr>
+      <td> Representational State Transfer </td>
+      <td> Simple Object Access Protocol </td>
+    </tr>
+    <tr>
+      <td> Focussed on data (resources) <br/>
+           Performs CRUD operations on data <br/>
+      </td>
+      <td> Focussed on operations (services) </td>
+    </tr>
+    <tr>
+      <td> Example: getUser(id) </td>
+      <td> Example: switchCategory(id) </td>
+    </tr>
+    <tr>
+      <td> Rest permits different data formats including JSON. <br/> THis allows support for browser clients </td>
+      <td> SOAP permits only XML </td>
+    </tr>
+    <tr>
+      <td> Rest reads can be cached </td>
+      <td> SOAP reads cannot be cached </td>
+    </tr>
+    <tr>
+      <td>  </td>
+      <td> Supports enterprise security features <br/>
+            ACID transactions <br/> 
+            Reliable Messaging <br/>
+      </td>
+    </tr>
+  </table>
 
 * __What makes an API Restful__
   * Resource Identification Per Request: Each request that modifies the database should act on one row of one table
   * Requests that fetch information should fetch zero or more rows from one table
-  * Resource is represented as data usually JSON
   * Client state is not stored. Each request uniquely identifies itself and have no context of the requests that came before it
 
 * __Rest API Best Practices__
