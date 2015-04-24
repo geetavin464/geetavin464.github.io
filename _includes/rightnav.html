@@ -1,7 +1,11 @@
-<h5> Categories </h5>
-{% for category in site.categories %}
-  <a href="/categories/{{ category | first }}">
-    <h6>{{ category | first | capitalize }}</h6>
-  </a>
-{% endfor %}
+<ul class="collection with-header">
+  <li> <h5> Categories </h5> </li>
+  {% for category in site.categories %}
+    <li class="collection-item">
+      <a href="/categories/{{ category | first }}">
+        <h6>{{ category | first | capitalize }}</h6>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
 
