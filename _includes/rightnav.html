@@ -1,7 +1,7 @@
 <h5> Categories </h5>
 {% for category in site.categories %}
-  <a href="/categories/{{ category | first | slugize }}">
-    <h6>{{ category | first }}</h6>
+  <a href="/categories/{{ category | first }}">
+    <h6>{{ category | first | capitalize }}</h6>
   </a>
 {% endfor %}
 
