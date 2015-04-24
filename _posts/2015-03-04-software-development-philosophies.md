@@ -2,8 +2,8 @@
 layout: post
 title:  "Software Development Philosophies"
 date:   2015-03-04 07:32:44
-categories: Cheatsheets
-published: false
+categories: architecture
+published: true
 ---
 
 * Waterfall Model
@@ -36,19 +36,14 @@ published: false
 * Continuous Deployment
   * Natural Extension of continuous integration. 
 
-* Scrum 
-
-* Lean Software Development
-
-* Behavior Driven Development
-
-* Cowboy Coding
-
-* Minimalism
-  
-* Micro Innovation
-
-* Release Early Release Often
+* __Other Paradigms__
+  * Scrum  
+  * Lean Software Development
+  * Behavior Driven Development
+  * Cowboy Coding
+  * Minimalism
+  * Micro Innovation
+  * Release Early Release Often
   
 * Quick & Dirty Programming
   * Crude Solution that is faster and easier
