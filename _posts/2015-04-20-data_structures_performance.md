@@ -7,7 +7,7 @@ published: true
 ---
 
 <div class="panel panel-default">
-  <table class="table">
+  <table class="responsive-table striped">
     <tr>
       <th> Data Structure </th>
       <th> Insertion  </th>
