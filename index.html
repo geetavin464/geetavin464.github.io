@@ -6,9 +6,8 @@ layout: default
       {% for post in site.posts %}
         <a href="{{ post.url | prepend: site.baseurl }}">
           <div class="col s12 l4">
-            <div class="card-panel cyan darken-1">
+            <div class="card-panel">
                <span class="card-title">{{ post.title }}</span>
-                <p class="card-description"> {{post.description}}</p>
             </div>
           </div>
         </a>
