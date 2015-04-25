@@ -2,17 +2,15 @@
 layout: default
 ---
 
-  <ul class="posts">
     <div class="row">
-    {% for post in site.posts %}
-      <a class="" href="{{ post.url | prepend: site.baseurl }}">
-        <div class="col s12 l4">
-          <li class="card-panel">
-             {{ post.title }}
-            <p> {{post.description}}</p>
-          </li>
-        </div>
-      </a>
-    {% endfor %}
+      {% for post in site.posts %}
+        <a class="card-info" href="{{ post.url | prepend: site.baseurl }}">
+          <div class="col s12 l4">
+            <div class="card-panel cyan darken-1">
+               <span class="card-title">{{ post.title }}</span>
+                <p class="card-description"> {{post.description}}</p>
+            </div>
+          </div>
+        </a>
+      {% endfor %}
     </div>
-  </ul>
