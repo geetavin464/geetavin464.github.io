@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Programming Language Fundamentals"
+title:  "Languages"
 date:   2015-03-28 18:08:44
 categories: programming
 description: semantics compiled vs interpreted, scoping

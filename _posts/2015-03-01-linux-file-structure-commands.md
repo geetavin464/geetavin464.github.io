@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Linux File Structure & Commands"
+title:  "Linux"
 date:   2015-03-01 19:08:44
 categories: devops
 description: Frequenty used linux commands, important folders and files

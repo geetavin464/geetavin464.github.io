@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Software Development Philosophies"
+title:  "Development Philosophies"
 date:   2015-03-04 07:32:44
 categories: architecture
 published: true

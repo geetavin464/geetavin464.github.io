@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Problem Solving & Troubleshooting"
+title:  "Problem Solving"
 date:   2015-03-03 06:08:44
 categories: workflow
 description: Strategies and techniques in problem solving 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Programming Bad Practices"
+title:  "Bad Practices"
 date:   2015-03-01 21:05:44
 categories: programming
 published: true

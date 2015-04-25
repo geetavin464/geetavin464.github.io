@@ -20,6 +20,9 @@ a         { color: #2a7ae2; text-decoration: none; }
 a:hover   { background-color: blue; }
 a:visited { color: #205caa; }
 
+img {
+  max-width: 223px;
+}
 
 /* Layout Styles */
 /* ----------------------------------------------------------*/
@@ -51,8 +54,16 @@ a:visited { color: #205caa; }
   background-color: #818181;
 }
 
+.card {
+  max-width: 223px;
+}
+
 .card-panel:hover{
   background-color: #e0e0e0;
+}
+
+.card-panel{
+  text-align: center;
 }
 
 .card-title{

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Server vs Client Side Rendering"
+title:  "Rendering"
 date:   2015-03-27 06:08:44
 categories: architecture
 published: false
