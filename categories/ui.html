@@ -2,14 +2,17 @@
 layout: default
 ---
 
-<div class="home">
-
   <ul class="posts">
+    <div class="row">
     {% for post in site.categories.ui %}
-      <li>
-        <a class="post-link list-group-item" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
+      <a class="" href="{{ post.url | prepend: site.baseurl }}">
+        <div class="col s12 l4">
+          <li class="card-panel">
+             {{ post.title }}
+            <p> {{post.description}}</p>
+          </li>
+        </div>
+      </a>
     {% endfor %}
+    </div>
   </ul>
-
-</div>
