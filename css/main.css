@@ -17,7 +17,7 @@ body {
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; text-align: center;}
 
 a         { color: #2a7ae2; text-decoration: none; }
-a:hover   { background-color: blue; }
+a:hover   { }
 a:visited { color: #205caa; }
 
 /* Layout Styles */
@@ -52,6 +52,10 @@ a:visited { color: #205caa; }
 .collection-header { 
   margin: 0 0 0; 
   background-color: #818181;
+}
+
+li.collection-item:hover{
+  background-color: #eeeeee;
 }
 
 .card-panel:hover{
