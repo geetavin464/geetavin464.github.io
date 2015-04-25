@@ -3,6 +3,7 @@ layout: post
 title:  "Networking Protocols"
 date:   2015-03-02 18:41:32
 categories: devops
+description: Networking protocols, their purpose, features and commands
 ---
 
 * __Frequently Used Networking Protocols__

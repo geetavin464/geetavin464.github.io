@@ -3,6 +3,7 @@ layout: post
 title:  "Problem Solving & Troubleshooting"
 date:   2015-03-03 06:08:44
 categories: workflow
+description: Strategies and techniques in problem solving 
 ---
 > It’s not that I’m so smart, it’s just that I stay with problems longer.
 > - Albert Einstein

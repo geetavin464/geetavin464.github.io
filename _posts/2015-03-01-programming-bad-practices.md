@@ -4,6 +4,7 @@ title:  "Programming Bad Practices"
 date:   2015-03-01 21:05:44
 categories: programming
 published: true
+description: Commonly seen bad practices in programming. Useful checklist for code reviews and refactoring
 ---
 
 * __Bad Practices__

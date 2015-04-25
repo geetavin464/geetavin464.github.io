@@ -3,6 +3,7 @@ layout: post
 title:  "Regular Expressions"
 date:   2015-04-18 07:24:32
 categories: programming
+description: basics characters filters metacharacters use in ruby
 ---
 
 * __What is a regular expression__

@@ -3,6 +3,7 @@ layout: post
 title:  "Web Developer Toolbox"
 date:   2015-03-02 06:08:44
 categories: workflow
+descriptions: Tools and services used in every day web development
 ---
   <table class="responsive-table striped">
     <tr>

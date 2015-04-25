@@ -4,6 +4,7 @@ title:  "Design Patterns"
 date:   2015-03-29 07:24:32
 categories: architecture
 published: true
+description: template strategy singleton factory
 ---
 
 * __Purpose__

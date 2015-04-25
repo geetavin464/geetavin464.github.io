@@ -4,6 +4,7 @@ title:  "Bootstrap"
 date:   2015-04-10 19:08:44
 categories: UI
 published: true
+description: components installation grid system classes
 ---
 
 * Bootstrap

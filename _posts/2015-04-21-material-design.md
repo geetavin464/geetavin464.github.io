@@ -55,5 +55,14 @@ published: false
   * Be open and honest
   * What does success look like ?
   * brand awareness. leads. sales?
+
+* __Grid__
+  * 12 column fluid responsive grid system
+  * `container` - class is set to 70% of window width
+  * `col` is nested in a `row` class
+  * `s1` - 1 col on small screens
+  * `s6` - 6 cols on small screens
+  * `sections` - provide padding
+  * `divider` - provide 1px lines
   * 
 

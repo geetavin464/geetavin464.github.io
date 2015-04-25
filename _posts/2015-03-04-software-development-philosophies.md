@@ -4,6 +4,7 @@ title:  "Software Development Philosophies"
 date:   2015-03-04 07:32:44
 categories: architecture
 published: true
+description: Agile, xp, continuous integration, deployment paradigms
 ---
 
 * Waterfall Model

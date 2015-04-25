@@ -3,6 +3,7 @@ layout: post
 title:  "REST vs SOAP"
 date:   2015-03-24 16:38:44
 categories: architecture
+description: Differences between the architectures, rest api best practices
 ---
 <table class="responsive-table striped">
     <tr>
