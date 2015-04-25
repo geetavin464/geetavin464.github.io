@@ -45,13 +45,16 @@ a:visited { color: #205caa; }
   background-color: #E0F7FA;
 }
 
+.post-content {
+  padding: 30px 0;
+}
+
 
 /* Home styles */
 /* ----------------------------------------------------------*/
 
 .collection-header { 
   margin: 0 0 0; 
-  background-color: #818181;
 }
 
 li.collection-item:hover{

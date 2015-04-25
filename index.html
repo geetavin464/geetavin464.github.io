@@ -2,14 +2,14 @@
 layout: default
 ---
 
-    <div class="row">
-      {% for post in site.posts %}
-        <a href="{{ post.url | prepend: site.baseurl }}">
-          <div class="col s12 l4">
-            <div class="card-panel">
-               <span class="card-title">{{ post.title }}</span>
-            </div>
+  <div class="row">
+    {% for post in site.posts %}
+      <a href="{{ post.url | prepend: site.baseurl }}">
+        <div class="col s12 l4">
+          <div class="card-panel">
+             <span class="card-title">{{ post.title }}</span>
           </div>
-        </a>
-      {% endfor %}
-    </div>
+        </div>
+      </a>
+    {% endfor %}
+  </div>
