@@ -51,6 +51,10 @@ a:visited { color: #205caa; }
   background-color: #818181;
 }
 
+.card-panel:hover{
+  background-color: #e0e0e0;
+}
+
 .card-title{
   font-size: 20px;
   color: black;
