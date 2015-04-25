@@ -20,10 +20,6 @@ a         { color: #2a7ae2; text-decoration: none; }
 a:hover   { background-color: blue; }
 a:visited { color: #205caa; }
 
-img {
-  max-width: 223px;
-}
-
 /* Layout Styles */
 /* ----------------------------------------------------------*/
 
@@ -35,6 +31,10 @@ img {
   text-align: center;
   font-size: 32px;
   vertical-align: center;
+}
+
+.site-heading{
+  font-family: 'Arizonia', cursive;
 }
 
 /* Page Content styles */
@@ -54,10 +54,6 @@ img {
   background-color: #818181;
 }
 
-.card {
-  max-width: 223px;
-}
-
 .card-panel:hover{
   background-color: #e0e0e0;
 }
@@ -69,6 +65,7 @@ img {
 .card-title{
   font-size: 20px;
   color: black;
+  font-family: 'Pacifico', cursive;
 }
 
 .card-description{
