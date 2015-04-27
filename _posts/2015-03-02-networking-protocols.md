@@ -38,7 +38,13 @@ description: Networking protocols, their purpose, features and commands
   * You can submit these to a dns provider and request for a .crt and .key
   * Normally expires in 365 days
   * `openssl x509 -enddate -noout -in certif.crt` To check the expiration of a .crt
+  * `openssl x509 -in server.crt -text` - prints info of ssl cert
 
+* __Securing a website__
+  * `openssl req -newkey rsa:2048 -nodes -keyout domain.key -out domain.csr`
+  * Above command creates a csr and key
+  * Use them to generate a crt from provider like Comodo
+  
 * __Using an ssl Certificate__
   * Turn on the ssl config option in nginx
   * Provide the .crt & .key files generated

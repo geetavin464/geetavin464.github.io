@@ -6,6 +6,39 @@ categories: programming
 published: false
 ---
 
+<table class="responsive-table striped">
+  <tr>
+    <th>  </th>
+    <th> Recursive Implementation  </th>
+    <th> Iterative Implementation </th>
+  </tr>
+  <tr>
+    <td> Factorial </td>
+    <td>   </td>
+    <td>   </td>
+  </tr>
+  <tr>
+    <td> Fibonacci </td>
+    <td>   </td>
+    <td>   </td>
+  </tr>
+</table>
+
+* Terminology
+  * Recursive Function
+  * Recursive Call
+  * Base Condition/Termination Condition
+  * Pause/Resume
+  * Factorial
+  * Fibonacci
+  * Iteration
+  * Complexity Analysis
+  * Time Complexity Analysis
+  * Space Complexity Analysis
+  * Runtime Efficiency
+  * Memory Efficiency
+  * Recurrence Function
+  * 
 * __Recursive Function__
   * If a function can be written as a simpler form of itself
   * The call to itself is called a recurive call
