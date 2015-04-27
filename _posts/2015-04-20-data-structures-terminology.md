@@ -19,9 +19,9 @@ published: true
     </tr>
     <tr>
       <td> Choosing a data structure </td>
-      <td> Minimize the cost of <br/>
-            Frequently used operation<br/>
-            Most expensive Resource <br/>
+      <td> Minimize the cost of - <br/>
+            Frequently used operations<br/>
+            Most expensive Resources <br/>
             Processing Power <br/>
             Memory Usage <br/>
             Difficulty of Implementation <br/>
@@ -30,27 +30,26 @@ published: true
     </tr>
     <tr>
       <td> Array </td>
-      <td> Linear <br/>
+      <td> Linear DS <br/>
       </td>
     </tr>
     <tr>
       <td> Linked List </td>
       <td> head   <br/>
-           Linear
+           Linear DS
       </td>
     </tr>
     <tr>
       <td> Stack </td>
       <td> LIFO <br/>
-           O(1) <br/>
-           Linear <br/>
+           Linear DS <br/>
       </td>
     </tr>
     <tr>
       <td> Queue </td>
       <td> FIFO <br/>
            O(1) <br/> 
-           Linear <br/>
+           Linear DS <br/>
       </td>
     </tr>
     <tr>
