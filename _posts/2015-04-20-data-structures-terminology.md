@@ -48,7 +48,6 @@ published: true
     <tr>
       <td> Queue </td>
       <td> FIFO <br/>
-           O(1) <br/> 
            Linear DS <br/>
       </td>
     </tr>
