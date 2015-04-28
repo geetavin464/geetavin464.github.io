@@ -36,7 +36,7 @@ published: true
     <tr>
       <td> Linked List </td>
       <td> head   <br/>
-           Linear DS
+           Linear DS <br/>
       </td>
     </tr>
     <tr>
