@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Web Architecture"
+title:  "SPA & AngularJS"
 date:   2015-04-12 06:08:44
 categories: architecture
-published: false
+published: true
 ---
 
 * __Single Page Application__
@@ -14,9 +14,7 @@ published: false
   * Loads all other content using javascript
   * Example: Gmail
   * UI is not reloaded
-  * 2.0 client is an SPA
   * They don't directly connect to the DB. But rather send restful requests to the API
-
 
 * __Advantages__
   * Less page load time
@@ -28,30 +26,22 @@ published: false
   * API & UI can be independently developed and tested
   * Use caching and local storage
 
-* __Disadvantages__
-  * Analytics
-  * Back button issue 
-
 * __AngularJS Philosophy__
-  * Front End Web Application Framework
+  * Front End Web Application Framework/Javascript Framework
   * Tag Line - HTML for web applications
-  * Javascript Framework
   * Can create dynamic SPA
   * Philosophy: Declarative programming is better than imperative programming
 
 * __AngularJS Trivia__
-  * `ng-app` - Adding this attribut to the html tag - instantiates an angular app on the page
+  * `ng-app` - Adding this attribute to the html tag - instantiates an angular app on the page
   * Angular looks through the DOM for {{}} double curly braces and swaps them with the value of the model
   * Model is nothing but a piece of data within the application
   * Model can be array, string, number, object..
-  * Controller
-  * Scope is defined by a controller
-  * Controller has access to all data and models in a scope and can operate on it using javascript
-  * `ng-controller`
+  * Controller is a javascript function, that add business logic to the application
+  * Controller defines scope and has access to all data or models in that scope
+  * keyword - `ng-controller`
   * Everything in the div is inside the controller scope
-  * Controllers are javascript functions
-  * Use controllers to add business logic for the application
-  * `$scope`
+  * scope keyword - `$scope`
 
 * __MVC vs MVVM__
   * 

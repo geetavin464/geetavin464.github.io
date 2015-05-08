@@ -6,7 +6,7 @@ categories: programming
 description: semantics compiled vs interpreted, scoping
 ---
 
-* __Compiled__
+* __Compiled Language__
   * Source Code -> Checker/Compiler -> Object Code -> Interpreter -> Output
   * Compiled languages are more efficient
   * Examples: C, Java, Go, Haskell, Lisp
@@ -14,12 +14,20 @@ description: semantics compiled vs interpreted, scoping
   * OS & Native Applications use compiled code
   * These languages do not support meta programming
 
-* __Interpreted__
+* __Interpreted Language__
   * Source Code -> Checker -> Interpreter -> Output
   * If something goes wrong, the error message is in the language of the source code
   * Examples: Ruby, Javascript, Perl, Python, PhP
   * Slower but more flexible
   * These languages support meta programming
+
+* __Imperative Programming__
+  * Telling the machine, how exactly do something, to derive your expected result
+  * Ex: Writing your own iterator
+
+* __Declarative Programming__
+  * Telling the machine, what exactly is your expected result, and let it deal with the specifics
+  * Ex: Using built-in methods for iteration etc
 
 * __Static Semantics__
   * A good programming language has very good static sematics
