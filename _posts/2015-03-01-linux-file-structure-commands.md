@@ -160,6 +160,7 @@ description: Frequenty used linux commands, important folders and files
   * `$` - Go to end of line
   * `^` - Go to beginning of line
   * `:q :q! :wq` - Quit , Quit without saving , Save & Quit
+  * `G` - to jump to end of file
 
 
 
