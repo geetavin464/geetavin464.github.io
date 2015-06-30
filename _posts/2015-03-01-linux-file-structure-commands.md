@@ -162,6 +162,9 @@ description: Frequenty used linux commands, important folders and files
   * `:q :q! :wq` - Quit , Quit without saving , Save & Quit
   * `G` - to jump to end of file
 
+* __User Management__
+  * `sudo su - user2` - switch to user2
+
 
 
 
