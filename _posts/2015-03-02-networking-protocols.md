@@ -17,7 +17,7 @@ description: Networking protocols, their purpose, features and commands
 * __Ports__
   * An IP address has multiple ports for various servers
   * Each server binds to a port and listens for incoming connections
-  * `http - 22`
+  * `http - 80`
   * `https - 443`
   * `dns - 53`
   * `ssh - 22`
