@@ -13,7 +13,14 @@ published: true
 * gulp ~ node package ~ task runner
 
 * Resources
-* [Node & npm](http://www.sitepoint.com/beginners-guide-node-package-manager/)
+* [Node & npm](http://www.sitepoint.com/beginners-guide-node-package-manager)
 * [Bower](https://blog.engineyard.com/2014/frontend-dependencies-management-part-1)
 * [Gulp](https://blog.engineyard.com/2014/frontend-dependencies-management-part-2)
 * [Yeoman](https://blog.engineyard.com/2014/frontend-dependencies-management-part-3)
+
+* __Useful Node/npm Commands__
+  * `node --version`
+  * `npm -v`
+  * Installation
+  * `curl -sL https://deb.nodesource.com/setup_0.12 | sudo bash -`
+  * `sudo apt-get install -y nodejs`
