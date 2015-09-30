@@ -24,3 +24,20 @@ published: true
   * Installation
   * `curl -sL https://deb.nodesource.com/setup_0.12 | sudo bash -`
   * `sudo apt-get install -y nodejs`
+  * `npm config list`
+  * `npm list --global --depth=0`
+  * `npm list --local --depth=0`
+  * `npm uninstall package`
+  * `npm install pkg@ver`
+  * `npm update pkg`
+  * `npm cache clean`
+  * `npm init` - creates package.json in the root folder
+  * 
+
+* __Dealing with older versions of ubuntu__
+  * [article](http://stackoverflow.com/questions/30316812/ubuntu-apt-get-unable-to-fetch-packages)
+  * Global search and replace `%s/pattern/replace` - did not work - why?
+  * 'iptables -I INPUT -p tcp --dport 1022 -j ACCEPT'
+  * sudo chown -R grockit:grockit grockit
+  * sudo chown -R grockit:grockit .
+

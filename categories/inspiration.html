@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+    <div class="row">
+      {% for post in site.categories.inspiration %}
+        <a href="{{ post.url | prepend: site.baseurl }}">
+          <div class="col s12 l4">
+            <div class="card-panel">
+               <span class="card-title">{{ post.title }}</span>
+            </div>
+          </div>
+        </a>
+      {% endfor %}
+    </div>
