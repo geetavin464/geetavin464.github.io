@@ -165,6 +165,11 @@ description: Frequenty used linux commands, important folders and files
 * __User Management__
   * `sudo su - user2` - switch to user2
 
+* __chown vs chmod__
+  * The commands cannot be used interchangably
+  * Use them responsibly
+  * 
+
 
 
 

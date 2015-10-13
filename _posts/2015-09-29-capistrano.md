@@ -14,6 +14,7 @@ published: true
   * Servers - name the servers and assign roles
   * When you specify a server or role on command line, while running the recipes, they are run only on that particular server
   * Purpose - To be able to run scripts/tasks on remote servers without logging in
+  * Common Error - Running cap tasks directly on the remote server rather from the gateway server
 
 * __Capfile__
   * Ruby script
@@ -23,6 +24,10 @@ published: true
   * `cap taskname`
   * [Docs](https://github.com/leehambley/capistrano-handbook/blob/master/index.markdown)
   * [Docs](https://github.com/capistrano/capistrano/wiki/2.x-Getting-Started)
+
+* __Commands__
+  * `bundle exec cap -T` - Lists all available tasks
+
   
 
 
