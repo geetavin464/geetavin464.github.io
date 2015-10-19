@@ -7,26 +7,12 @@ description: Visual Studio
 published: false
 ---
 
-* __Terminology__
-  * nuget packages
-  * asp.net
-  * Comes with many frameworks - mvc, spa, wep api etc
-  * MVP - open source contributions
-  * supports modern web - grunt bower etc
-  * Identity System - SSO
-  * Templates ~ bootstrap
-  * 2 Factor Authentication
-  * Authentication
-  * Azure SDK
-  * routing - global.asax
-  * Routing is the controller
-  * CORS support
-  * Entity Framework
-  * Stored Procs
-  * Async Support
-  * 
-
-* __ASP.net__
-  * ASP.net is not the same as ASP
-  * or .net
-  * 
+* __Shortcuts__
+  * `ctrl + o` - open file
+  * `ctrl + shft + o` - open project
+  * `ctrl + n` - New file
+  * `ctrl + shft + n` - New project
+  * `ctrl + alt + l` - Shift focus to solution explorer
+  * `ctrl + shft + B` - Build solution
+  * Compile vs Build
+  * `
