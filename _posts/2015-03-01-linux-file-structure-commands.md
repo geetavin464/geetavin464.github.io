@@ -167,7 +167,10 @@ description: Frequenty used linux commands, important folders and files
 * __chown vs chmod__
   * The commands cannot be used interchangably
   * Use them responsibly
-  * 
+
+* __Users & Groups__
+  * `compgen -u` - List all users
+  * `compgen -g` - List all groups
 
 
 
