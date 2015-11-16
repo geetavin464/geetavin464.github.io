@@ -5,8 +5,6 @@ date:   2015-03-01 19:08:44
 categories: devops
 description: Frequenty used linux commands, important folders and files
 ---
-> All the best people in life seem to like LINUX
-> - Steve Wozniak
 
 * __Philosophy of Linux__
   * Linux does not assume anything. Lets you install what you need rather than give you a bunch of things you may not need. All commands are case sensitive.
@@ -60,6 +58,7 @@ description: Frequenty used linux commands, important folders and files
   * `env` - view all environment variables
   * `env | grep PATH`
   * `echo $PATH`
+  * `echo $USER` - prints current user
 
 * __Processes__
   * Processes are the core of a linux OS. A process is an instance of a running command. 

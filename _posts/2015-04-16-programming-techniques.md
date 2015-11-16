@@ -38,7 +38,7 @@ published: false
   * Runtime Efficiency
   * Memory Efficiency
   * Recurrence Function
-  * 
+
 * __Recursive Function__
   * If a function can be written as a simpler form of itself
   * The call to itself is called a recurive call
@@ -75,10 +75,7 @@ published: false
   * T(n)=3n+1
   * O(n)
   * Write a recurrence interms of its base condition
-
   * Both time & space complexity of factorial is O(n)
-
-  * 
 
 * __Recursion__
   * Factorial - Recursive Implementation
@@ -101,4 +98,3 @@ published: false
   * push & pop from memory stack
   * Maximum space consumed in the memory stack
   * Depth of the recursion tree - length of the longest path in the tree
-  * 

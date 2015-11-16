@@ -41,3 +41,8 @@ published: true
   * sudo chown -R grockit:grockit grockit
   * sudo chown -R grockit:grockit .
 
+* __Mac Installation__
+  * https://nodejs.org/en/
+  * pkg manager - install versionn 4.2.2
+  * node & npm are installed
+  * 

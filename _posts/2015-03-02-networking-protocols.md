@@ -81,7 +81,6 @@ description: Networking protocols, their purpose, features and commands
   * Safe Method - has no effect on the server - get
   * Idempotent Method - Effect of 1 method is the same as the effect of multiple methods - put, delete
 
-
 * __Http Status Codes__
   * 1xx - informational messages
   * 2xx - success messages
@@ -119,5 +118,22 @@ description: Networking protocols, their purpose, features and commands
   * Last step used Pop3/IMap which is pull protocol
   * Use polling to make it seem instantaneous
 
+* __CDN__
+  * Content Delivery Network
+  * Takes static content and places them in locations closer to the users
+  * Amazon, Akamai, Rackspace
+  * They have node servers all over
+  * Push & Pull 
+  * Amazon Cloudfront
 
+* __SSH Revised__
+  * Connect to machines remotely
+  * By default username is the current user
+  * to specify user name -l username
+  * `ssh user@host`
+  * How to print the fingerprint of a key?
+  * `ssh -i path_to_pvt_key user@host`
+
+* __ssh config files__
+  * 
 

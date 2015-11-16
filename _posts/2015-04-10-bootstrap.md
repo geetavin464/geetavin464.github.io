@@ -29,7 +29,6 @@ description: components installation grid system classes
 * Javascript Components
   * Modal Windows
   * Carousels
-  * 
 
 * Grid System
 * Fixed width

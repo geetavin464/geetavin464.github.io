@@ -64,5 +64,4 @@ published: false
   * `s6` - 6 cols on small screens
   * `sections` - provide padding
   * `divider` - provide 1px lines
-  * 
 
