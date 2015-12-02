@@ -1,0 +1,72 @@
+---
+layout: post
+title:  "Docker  Command Reference"
+date:   2015-12-02 18:41:32
+categories: devops
+description: Features & Commands
+---
+
+* __Installation & Setup on Ubuntu__
+  * `sudo apt-get update`
+  * `curl -sSL https://get.docker.com/ | sh`
+  * `docker -v`
+  * `sudo usermod -aG docker ubuntu`
+  * `docker ps -a`
+
+* __Info Commands__
+  * `docker info`
+  * `docker history`
+
+* __Image Commands__
+  * `docker build -t my_img .` - Looks for the Dockerfile, builds an image called my_img from it
+  * `docker tag img_id user_name/img_name:latest` - Tag & push image
+  * `docker login --username=uname --password=pw --email=email`
+  * `docker push`
+  * `docker rmi -f img_id`
+  * `docker rmi -f img_name`
+  * `docker pull uname/iname:tag` - pull image
+  * `docker images`
+  * `docker search -s 10 ubuntu` - search for image with more than 10 stars
+  * `docker inspect img_name`
+
+* __Container Commands__
+  * Container is a basic linux os
+  * `docker run --name docker-nginx -p 80:80 -d nginx`
+  * creates a container with the name `docker-nginx`
+  * `-d` in the background as a daemon; detached mode; keeps running until manually stopped;
+  * `80:80` - local_machine_port:container_port
+  * `nginx` - name of the image
+  * `docker ps -a` - list containers including those that are stopped
+  * `docker stop $cid`
+  * `docker rm container_name`
+  * `-v` - link volume
+  * `docker logs c_id`
+  * `docker top c_id`
+  * `docker run -it -v vol1 /john1 myimg`
+  * `docker logs c_id`
+
+* __Docker run Reference__
+  * `-w=""` - Override working directory
+  * `-u=""` - username or uid
+  * `-v=[]` - volume
+
+* __Dockerfile Instructions__
+  * Instructions are traditionally uppercase
+  * `FROM` - Mandatory. First instruction is always a `FROM`
+  * `#` indicates a comment
+  * $variable_name
+  * A series of commands a user could call on the command line to assemble an image
+  * `PATH` - A local directory, which defines the context
+  * Traditionally dockerfile belongs in the root folder. You can use -f flag to point to it elsewhere
+  * `CMD` - There can be only 1 CMD in a dockerfile. Only the last will take effect
+  * `URL` - A git repo location
+  * `.dockerignore` - to exclude files from the context
+  * `MAINTAINER` - author
+  * `LABEL` - add meta data to the image
+  * `EXPOSE` - expose ports. Used to interconnect containers using links
+  * `USER` - sets the username
+  * `ENV` - set shell variables
+  * `WORKDIR` - sets the work directory for RUN, CMD, ENTRYPOINT, ADD, COPY
+  * `VOLUME` - Creates a mount point with the specified name. Marks it as holding volumes from native host or other containers
+  * `RUN` vs `CMD` vs `ENTRYPOINT`
+  * `ADD` vs `COPY`

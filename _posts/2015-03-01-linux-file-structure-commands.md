@@ -30,6 +30,9 @@ description: Frequenty used linux commands, important folders and files
   * `sudo apt-get install update-manager-core #step-2`
   * `sudo do-release-upgrade #step-3` - 3 steps for upgrade
 
+* __Kernel Version__
+  * `uname -r`
+
 * __Important Folders__
   * `/var/run` - pids for the important processes
   * `/var/log` - Logs
@@ -171,6 +174,9 @@ description: Frequenty used linux commands, important folders and files
 * __Users & Groups__
   * `compgen -u` - List all users
   * `compgen -g` - List all groups
+
+* __Reboot__
+  * `sudo reboot`
 
 
 
