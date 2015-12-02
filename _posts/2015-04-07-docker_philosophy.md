@@ -59,13 +59,8 @@ description: Features & Commands
   * CMD can be shell form or json array form
   * If no CMD is mentioned the default CMD associated with the base image is run
 
-* __Types of containers__
-  * Service oriented containers
-  * Data oriented containers
-  * Helper Container
-  * Container linking
-
 * __Advanced Topics__
+  * Functional Types of Containers - Service, Data, Helpers
   * Container Linking
   * Source & Recepient Containers using environment variables without any port connections
   * Compose still in beta can help with multi container linking
