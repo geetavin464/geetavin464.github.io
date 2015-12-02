@@ -43,5 +43,7 @@ published: true
   * Everything in the div is inside the controller scope
   * scope keyword - `$scope`
 
-* __MVC vs MVVM__
-  * 
+* __Architecture__
+  * Web Frontend
+  * Mobile frontend
+  * Services, also need to talk to each other

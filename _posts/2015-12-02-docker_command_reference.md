@@ -40,10 +40,19 @@ description: Features & Commands
   * `docker stop $cid`
   * `docker rm container_name`
   * `-v` - link volume
-  * `docker logs c_id`
   * `docker top c_id`
   * `docker run -it -v vol1 /john1 myimg`
+  * `docker exec -it c_id bash` - takes you inside the container
+  * `docker inspect c_id | grep IpAddress`
+
+* __Container Troubleshooting__
   * `docker logs c_id`
+  * `docker logs -f c_id` - follow the log
+  * `docker logs -f --tail 1 c_id` - follow from the last line
+  * The logs are output from the pid 1 process
+  * Map a volume to look at the logs on the host. These logs are available, even if the container is shut down
+  * Volume mounting is best approach to view logs.
+  * If you make changes to docker engine, eg: logging, you restart the service
 
 * __Docker run Reference__
   * `-w=""` - Override working directory

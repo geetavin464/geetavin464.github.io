@@ -6,6 +6,9 @@ categories: devops
 description: Features & Commands
 ---
 
+* Topics
+  * Engine, Images, Dockerfile, Containers, Volumes, Networking, Troubleshooting, CI flow
+
 * __Containers vs Virtual Machines__
   * Containers look and operate like a VM
   * They are not VM
@@ -59,11 +62,44 @@ description: Features & Commands
   * CMD can be shell form or json array form
   * If no CMD is mentioned the default CMD associated with the base image is run
 
+* __Volumes__
+  * Volumes are mounted when creating or executing a container
+  * The data in this volume is persistent, even if you delete the container
+  * Volumes are independent of the containers lifecycle
+  * Volumes can be shared between containers
+  * I understand sharing volumes between host & container. 
+  * You can specify volumes in the dockerfile using the VOLUME instruction
+  * You cannot map volumes from host using the dockerfile. coz it is intended to work on any host.
+  * You can store data (for eg logs in a volume, which can be accessed even after the container is shut down)
+  * Mounting folders from host is not recommended. Because it binds you to that host. Not good for production use.
+  * I do not understand from the examples how volumes are persistent
+
+* __Networking__
+  * Containers have their own IP address
+  * You can specify container ports in the EXPOSE instruction
+  * Linking: Container connection without any network ports
+  * You first create the source container. Then the recepient with the link to the source. name followed by an alias
+  * It creates an entry in the recepient container with an alias & IP of the source container
+  * Linking is useful when you have separate web & database containers
+  * Containers can be on the same host or different hosts
+
+* __Continuous Integration__
+  * How to integrate docker in your CI workflow?
+  * Traditional Flow: User commits->CI runs testcases, triggers build-> sends to app server
+  * Docker flow: Have CI server also build image after it built application. 
+  * Image is pushed to docker hub. From the hub, it is deployed to the host machine
+  * Alternate Flow(Auto Build): No CI server. git -> hub -> host machine
+  * 2 possible workflows. I guess the former is better. Since we already have teamcity setup
+  * How to automatically pull image into the host
+
+* __Troubleshooting__
+  * 1: Container shuts down unexpectedly? 
+  * The main application or process it is running has shut down
+
 * __Advanced Topics__
   * Functional Types of Containers - Service, Data, Helpers
-  * Container Linking
-  * Source & Recepient Containers using environment variables without any port connections
   * Compose still in beta can help with multi container linking
+  * Swarm - to scale the container
 
 * __Questions__
   * Can docker be used as a build server?
