@@ -7,7 +7,7 @@ description: Features & Commands
 ---
 
 * Topics
-  * Engine, Images, Dockerfile, Containers, Volumes, Networking, Troubleshooting, CI flow
+  * Engine, Images, Dockerfile, Containers, Volumes, Networking, Troubleshooting, CI flow, Hub
 
 * __Containers vs Virtual Machines__
   * Containers look and operate like a VM
@@ -44,12 +44,13 @@ description: Features & Commands
   * Docker logo represents official images in the registry(hub)
   * prefix of library denotes official image
   * build cache
+  * build command compresses the context into a tar and sends it to the daemon
   * Trivia: 70+ official, 100K+ regular, 300M+ downloads
 
 * __Dockerfile__
   * A dockerfile lets you create your own image
   * `touch Dockerfile`
-  * `FROM docker/nginx:latest` - tells which image to base off of. Always the First instruction in the dockerfile
+  * `FROM nginx` - tells which image to base off of. Always the First instruction in the dockerfile
   * `RUN apt-get prog1` - creates a image layer. Minimize image layers by combining multiple RUNs to avoid multiple intermediate images keeping readability in mind
   * `CMD service nginx start` - run after the image is loaded
   * Files & patterns listed in .dockerignore will ignored
@@ -92,6 +93,10 @@ description: Features & Commands
   * 2 possible workflows. I guess the former is better. Since we already have teamcity setup
   * How to automatically pull image into the host
 
+* __Hub/Registry__
+  * Place to store & distribute docker images
+  * 1 build at a time. No more than 1 at a time.
+
 * __Troubleshooting__
   * 1: Container shuts down unexpectedly? 
   * The main application or process it is running has shut down
@@ -106,3 +111,20 @@ description: Features & Commands
   * Is that a good idea? ( Depends on the application I guess )
   * Cloud Provider - AWS ( digital ocean is an option)
   * How do you manage content, configuration & logging on a nginx docker container?
+
+* __Benefits of running on EB__
+  * If container crashes, EB restarts it automatically
+
+* __Types of EB configurations for docker__
+  * Single Container
+  * Multi Container
+
+* __Single Container__
+  * deploys 1 container per instance
+  * Docker image described in a Dockerfile
+  * Dockerrun.aws.json & source code
+  * zip file?
+
+* __Ways to deploy__
+  * CLI
+  * 

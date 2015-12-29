@@ -32,7 +32,6 @@ published: true
   * `npm update pkg`
   * `npm cache clean`
   * `npm init` - creates package.json in the root folder
-  * 
 
 * __Dealing with older versions of ubuntu__
   * [article](http://stackoverflow.com/questions/30316812/ubuntu-apt-get-unable-to-fetch-packages)

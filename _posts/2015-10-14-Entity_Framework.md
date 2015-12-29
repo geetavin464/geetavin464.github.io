@@ -50,6 +50,4 @@ published: false
   * meta data
   * edm file - 1 large xml file
   * Where is the model browser?
-  * 
-
   

@@ -49,49 +49,9 @@ description: Networking protocols, their purpose, features and commands
   * Turn on the ssl config option in nginx
   * Provide the .crt & .key files generated
 
-* __SSH__
-  * Secure Shell - Securely log on to remote servers
-  * Succesor to telnet, but encrypted
-  * Popular Implementations - openssh
-  * `ssh host`
-  * `ssh user@host` - if username is different on the host
-  * `ssh host cmd` - To run a single command on the host
-  * `ssh -L 9000:flickr.com:80 user@example.com` - lets you access flickr at localhost:9000 - ssh tunneling
-
-* __SSH configuration__
-  * Remote host should have a `ssh_server` running
-  * `/etc/ssh/sshd_config` - Configures the ssh server
-  * `sudo service ssh restart` - if you changed any configuration
-
-* __SSH Key based Authentication__
-  * Works 
-  * `ssh-keygen -t rsa` Generates id_rsa id_rsa.pub in ~/.ssh folder
-  * Provide the public key aka host key to the machines you want to access
-  * Private Key ~ real life key.   Public Key ~ Real life lock
-  * `.ssh/known_hosts` - Lists the servers your machine can connect with
-  * `.ssh/authorized_keys` - Lists the key that were authorized to connect
-
-* __Http Protocol - Verbs__
-  * get - fetch an existing resource
-  * post - creates a new resource
-  * put - update an existing resource
-  * delete - delete an existing resource
-  * head - retrives the headers
-  * options - retrieves the server capabilities
-  * Safe Method - has no effect on the server - get
-  * Idempotent Method - Effect of 1 method is the same as the effect of multiple methods - put, delete
-
-* __Http Status Codes__
-  * 1xx - informational messages
-  * 2xx - success messages
-  * 3xx - redirection messages
-  * 4xx - client error 
-  * 5xx - server error
-
 * __Http headers__
   * Use Chrome inspector-Network panel to look at the request and response headers
   * Request payload in a post method is nothing but the form data
-  * Options Method is also commonly known as preflight request
   * CORS - Cross Origin Resource Sharing
   * mime-type, content-type, file-extension
   * CORS - mechanism that allows resources to be shared from domains other than the origin
@@ -125,15 +85,3 @@ description: Networking protocols, their purpose, features and commands
   * They have node servers all over
   * Push & Pull 
   * Amazon Cloudfront
-
-* __SSH Revised__
-  * Connect to machines remotely
-  * By default username is the current user
-  * to specify user name -l username
-  * `ssh user@host`
-  * How to print the fingerprint of a key?
-  * `ssh -i path_to_pvt_key user@host`
-
-* __ssh config files__
-  * 
-

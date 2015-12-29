@@ -17,8 +17,11 @@ description: Features & Commands
   * `docker info`
   * `docker history`
 
+* __nginx Reference__
+  * https://hub.docker.com/_/nginx/
+
 * __Image Commands__
-  * `docker build -t my_img .` - Looks for the Dockerfile, builds an image called my_img from it
+  * `docker build -t repo_name/img_name:tag .` - 
   * `docker tag img_id user_name/img_name:latest` - Tag & push image
   * `docker login --username=uname --password=pw --email=email`
   * `docker push`
@@ -28,6 +31,9 @@ description: Features & Commands
   * `docker images`
   * `docker search -s 10 ubuntu` - search for image with more than 10 stars
   * `docker inspect img_name`
+  * `docker tag local_repo:tag docker_hub_repo:tag` - rename local repo& image
+  * `docker tag img_id docker_hub_repo:tag` - also rename
+  * Name of repository ~ username/image_name
 
 * __Container Commands__
   * Container is a basic linux os
@@ -44,6 +50,8 @@ description: Features & Commands
   * `docker run -it -v vol1 /john1 myimg`
   * `docker exec -it c_id bash` - takes you inside the container
   * `docker inspect c_id | grep IpAddress`
+  * `docker commit c_id repo_name/app_name:tag` - commits the container as an image
+  * Push must have same repository and tag as the docker hub repo
 
 * __Container Troubleshooting__
   * `docker logs c_id`
