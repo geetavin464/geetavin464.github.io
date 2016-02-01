@@ -44,3 +44,9 @@ published: true
   * https://nodejs.org/en/
   * pkg manager - install versionn 4.2.2
   * node & npm are installed
+
+* Environment Variables
+  * Work in different environments
+
+* Gulp Tasks
+  * 
